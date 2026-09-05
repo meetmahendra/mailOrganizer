@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "TEST-CS-001",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #1)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_001",
+      "thread_id": "mock_thd_cs_001",
+      "message_id_header": "<20260831.sales.001@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #1] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #1] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-002",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #2)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_002",
+      "thread_id": "mock_thd_cs_002",
+      "message_id_header": "<20260831.sales.002@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #2] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #2] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-003",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #3)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_003",
+      "thread_id": "mock_thd_cs_003",
+      "message_id_header": "<20260831.sales.003@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #3] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #3] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-004",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #4)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_004",
+      "thread_id": "mock_thd_cs_004",
+      "message_id_header": "<20260831.sales.004@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #4] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #4] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-005",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #5)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_005",
+      "thread_id": "mock_thd_cs_005",
+      "message_id_header": "<20260831.sales.005@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #5] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #5] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-006",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #6)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_006",
+      "thread_id": "mock_thd_cs_006",
+      "message_id_header": "<20260831.sales.006@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #6] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #6] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-007",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #7)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_007",
+      "thread_id": "mock_thd_cs_007",
+      "message_id_header": "<20260831.sales.007@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #7] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #7] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-008",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #8)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_008",
+      "thread_id": "mock_thd_cs_008",
+      "message_id_header": "<20260831.sales.008@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #8] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #8] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-009",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #9)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_009",
+      "thread_id": "mock_thd_cs_009",
+      "message_id_header": "<20260831.sales.009@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #9] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #9] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-010",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #10)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_010",
+      "thread_id": "mock_thd_cs_010",
+      "message_id_header": "<20260831.sales.010@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #10] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #10] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-011",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #11)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_011",
+      "thread_id": "mock_thd_cs_011",
+      "message_id_header": "<20260831.sales.011@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #11] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #11] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-012",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #12)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_012",
+      "thread_id": "mock_thd_cs_012",
+      "message_id_header": "<20260831.sales.012@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #12] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #12] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-013",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #13)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_013",
+      "thread_id": "mock_thd_cs_013",
+      "message_id_header": "<20260831.sales.013@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #13] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #13] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-014",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #14)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_014",
+      "thread_id": "mock_thd_cs_014",
+      "message_id_header": "<20260831.sales.014@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #14] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #14] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-015",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #15)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_015",
+      "thread_id": "mock_thd_cs_015",
+      "message_id_header": "<20260831.sales.015@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #15] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #15] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-016",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #16)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_016",
+      "thread_id": "mock_thd_cs_016",
+      "message_id_header": "<20260831.sales.016@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #16] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #16] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-017",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #17)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_017",
+      "thread_id": "mock_thd_cs_017",
+      "message_id_header": "<20260831.sales.017@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #17] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #17] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-018",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #18)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_018",
+      "thread_id": "mock_thd_cs_018",
+      "message_id_header": "<20260831.sales.018@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #18] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #18] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-019",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #19)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_019",
+      "thread_id": "mock_thd_cs_019",
+      "message_id_header": "<20260831.sales.019@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #19] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #19] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-020",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #20)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_020",
+      "thread_id": "mock_thd_cs_020",
+      "message_id_header": "<20260831.sales.020@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #20] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #20] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-021",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #21)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_021",
+      "thread_id": "mock_thd_cs_021",
+      "message_id_header": "<20260831.sales.021@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #21] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #21] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-022",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #22)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_022",
+      "thread_id": "mock_thd_cs_022",
+      "message_id_header": "<20260831.sales.022@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #22] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #22] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-023",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #23)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_023",
+      "thread_id": "mock_thd_cs_023",
+      "message_id_header": "<20260831.sales.023@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #23] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #23] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-024",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #24)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_024",
+      "thread_id": "mock_thd_cs_024",
+      "message_id_header": "<20260831.sales.024@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #24] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #24] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-025",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #25)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_025",
+      "thread_id": "mock_thd_cs_025",
+      "message_id_header": "<20260831.sales.025@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #25] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #25] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-026",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #26)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_026",
+      "thread_id": "mock_thd_cs_026",
+      "message_id_header": "<20260831.sales.026@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #26] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #26] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-027",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #27)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_027",
+      "thread_id": "mock_thd_cs_027",
+      "message_id_header": "<20260831.sales.027@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #27] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #27] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-028",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #28)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_028",
+      "thread_id": "mock_thd_cs_028",
+      "message_id_header": "<20260831.sales.028@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #28] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #28] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-029",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #29)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_029",
+      "thread_id": "mock_thd_cs_029",
+      "message_id_header": "<20260831.sales.029@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #29] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #29] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-030",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #30)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_030",
+      "thread_id": "mock_thd_cs_030",
+      "message_id_header": "<20260831.sales.030@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #30] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #30] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-031",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #31)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_031",
+      "thread_id": "mock_thd_cs_031",
+      "message_id_header": "<20260831.sales.031@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #31] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #31] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-032",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #32)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_032",
+      "thread_id": "mock_thd_cs_032",
+      "message_id_header": "<20260831.sales.032@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #32] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #32] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-033",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #33)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_033",
+      "thread_id": "mock_thd_cs_033",
+      "message_id_header": "<20260831.sales.033@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #33] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #33] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-034",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #34)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_034",
+      "thread_id": "mock_thd_cs_034",
+      "message_id_header": "<20260831.sales.034@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #34] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #34] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-035",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #35)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_035",
+      "thread_id": "mock_thd_cs_035",
+      "message_id_header": "<20260831.sales.035@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #35] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #35] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-036",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #36)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_036",
+      "thread_id": "mock_thd_cs_036",
+      "message_id_header": "<20260831.sales.036@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #36] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #36] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-037",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #37)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_037",
+      "thread_id": "mock_thd_cs_037",
+      "message_id_header": "<20260831.sales.037@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #37] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #37] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-038",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #38)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_038",
+      "thread_id": "mock_thd_cs_038",
+      "message_id_header": "<20260831.sales.038@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #38] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #38] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-039",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #39)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_039",
+      "thread_id": "mock_thd_cs_039",
+      "message_id_header": "<20260831.sales.039@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #39] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #39] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-040",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #40)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_040",
+      "thread_id": "mock_thd_cs_040",
+      "message_id_header": "<20260831.sales.040@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #40] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #40] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-041",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #41)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_041",
+      "thread_id": "mock_thd_cs_041",
+      "message_id_header": "<20260831.sales.041@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #41] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #41] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-042",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #42)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_042",
+      "thread_id": "mock_thd_cs_042",
+      "message_id_header": "<20260831.sales.042@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #42] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #42] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-043",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #43)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_043",
+      "thread_id": "mock_thd_cs_043",
+      "message_id_header": "<20260831.sales.043@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #43] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #43] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-044",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #44)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_044",
+      "thread_id": "mock_thd_cs_044",
+      "message_id_header": "<20260831.sales.044@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #44] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #44] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-045",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #45)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_045",
+      "thread_id": "mock_thd_cs_045",
+      "message_id_header": "<20260831.sales.045@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #45] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #45] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-046",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Tier-1 Client Production SLA Outage Escalation (Client #46)",
+    "description": "Tier-1 client communication: Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+    "email": {
+      "gmail_id": "mock_cs_046",
+      "thread_id": "mock_thd_cs_046",
+      "message_id_header": "<20260831.sales.046@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #46] Tier-1 Client Production SLA Outage Escalation",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #46] Tier-1 Client Production SLA Outage Escalation",
+      "snippet": "Apex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.",
+      "body": "Hi Arjun,\n\nApex Global production gateway experiencing 15% packet drops. SLA penalty clause invoked if not resolved within 60 minutes.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        9,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-047",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Quarterly Business Review (QBR) Scheduling (Client #47)",
+    "description": "Tier-1 client communication: Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+    "email": {
+      "gmail_id": "mock_cs_047",
+      "thread_id": "mock_thd_cs_047",
+      "message_id_header": "<20260831.sales.047@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #47] Quarterly Business Review (QBR) Scheduling",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #47] Quarterly Business Review (QBR) Scheduling",
+      "snippet": "Apex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.",
+      "body": "Hi Arjun,\n\nApex Global executive team requesting Q3 QBR meeting with Victoria and Marcus for next Thursday.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-048",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Enterprise Contract Renewal Discount Negotiation (Client #48)",
+    "description": "Tier-1 client communication: Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+    "email": {
+      "gmail_id": "mock_cs_048",
+      "thread_id": "mock_thd_cs_048",
+      "message_id_header": "<20260831.sales.048@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #48] Enterprise Contract Renewal Discount Negotiation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #48] Enterprise Contract Renewal Discount Negotiation",
+      "snippet": "Client contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.",
+      "body": "Hi Arjun,\n\nClient contract up for renewal. Competitor offering 20% discount; requesting executive meeting to finalize terms.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-049",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Customer Onboarding Technical Kickoff (Client #49)",
+    "description": "Tier-1 client communication: Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+    "email": {
+      "gmail_id": "mock_cs_049",
+      "thread_id": "mock_thd_cs_049",
+      "message_id_header": "<20260831.sales.049@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #49] Customer Onboarding Technical Kickoff",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #49] Customer Onboarding Technical Kickoff",
+      "snippet": "Scheduling the 60-minute architecture review for the incoming enterprise client integration.",
+      "body": "Hi Arjun,\n\nScheduling the 60-minute architecture review for the incoming enterprise client integration.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Tier-1 client escalation requiring timely response",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-CS-050",
+    "suite": "enterprise_sales_cs",
+    "domain": "Enterprise Sales & Customer Success",
+    "title": "Monthly Usage Report & CS Check-in (Client #50)",
+    "description": "Tier-1 client communication: Automated summary of your company's API consumption and throughput metrics for August.",
+    "email": {
+      "gmail_id": "mock_cs_050",
+      "thread_id": "mock_thd_cs_050",
+      "message_id_header": "<20260831.sales.050@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:42:15 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CLIENT ESCALATION #50] Monthly Usage Report & CS Check-in",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[CLIENT ESCALATION #50] Monthly Usage Report & CS Check-in",
+      "snippet": "Automated summary of your company's API consumption and throughput metrics for August.",
+      "body": "Hi Arjun,\n\nAutomated summary of your company's API consumption and throughput metrics for August.\n\nPlease confirm availability or status update at your earliest convenience.\n\nBest regards,\n\nDavid Chen\nVP of Engineering | Apex Global Financial\nPhone: +1 (415) 555-0199 | david.chen@yourclient.com\n\n---\nCONFIDENTIAL TIER-1 CLIENT TRANSMISSION",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational customer update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "sales",
+        "customer-support"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

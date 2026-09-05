@@ -1,0 +1,10 @@
+﻿{
+  "_comment": "MCP client configuration for the Gmail Organizer MCP Server (SSE transport).",
+  "_usage": "Add the 'gmail-organizer' block to your orchestrator config (Claude Desktop, etc.).",
+  "mcpServers": {
+    "gmail-organizer": {
+      "url": "http://localhost:8001/sse",
+      "_note": "SSE transport — start the server first with: python -m mcp_server.server"
+    }
+  }
+}

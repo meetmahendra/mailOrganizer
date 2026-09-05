@@ -1,0 +1,21 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-api-python-client
+google-genai
+langchain
+langchain-google-genai
+langgraph
+pydantic
+PyYAML
+requests
+
+# ── Optional: install only the provider(s) you use ────────────────────────────
+# langchain-openai          # for provider: openai  (GPT-4o, etc.)
+# langchain-anthropic       # for provider: anthropic (Claude)
+# langchain-mistralai       # for provider: mistral
+# langchain-community       # for provider: qwen
+# dashscope                 # required alongside langchain-community for qwen

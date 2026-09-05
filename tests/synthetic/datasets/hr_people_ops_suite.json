@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "TEST-HR-001",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#1)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_001",
+      "thread_id": "mock_thd_hr_001",
+      "message_id_header": "<20260831.hr.001@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #1] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #1] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-002",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#2)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_002",
+      "thread_id": "mock_thd_hr_002",
+      "message_id_header": "<20260831.hr.002@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #2] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #2] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-003",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#3)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_003",
+      "thread_id": "mock_thd_hr_003",
+      "message_id_header": "<20260831.hr.003@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #3] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #3] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-004",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#4)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_004",
+      "thread_id": "mock_thd_hr_004",
+      "message_id_header": "<20260831.hr.004@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #4] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #4] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-005",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#5)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_005",
+      "thread_id": "mock_thd_hr_005",
+      "message_id_header": "<20260831.hr.005@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #5] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #5] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-006",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#6)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_006",
+      "thread_id": "mock_thd_hr_006",
+      "message_id_header": "<20260831.hr.006@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #6] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #6] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-007",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#7)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_007",
+      "thread_id": "mock_thd_hr_007",
+      "message_id_header": "<20260831.hr.007@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #7] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #7] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-008",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#8)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_008",
+      "thread_id": "mock_thd_hr_008",
+      "message_id_header": "<20260831.hr.008@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #8] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #8] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-009",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#9)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_009",
+      "thread_id": "mock_thd_hr_009",
+      "message_id_header": "<20260831.hr.009@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #9] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #9] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-010",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#10)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_010",
+      "thread_id": "mock_thd_hr_010",
+      "message_id_header": "<20260831.hr.010@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #10] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #10] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-011",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#11)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_011",
+      "thread_id": "mock_thd_hr_011",
+      "message_id_header": "<20260831.hr.011@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #11] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #11] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-012",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#12)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_012",
+      "thread_id": "mock_thd_hr_012",
+      "message_id_header": "<20260831.hr.012@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #12] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #12] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-013",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#13)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_013",
+      "thread_id": "mock_thd_hr_013",
+      "message_id_header": "<20260831.hr.013@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #13] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #13] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-014",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#14)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_014",
+      "thread_id": "mock_thd_hr_014",
+      "message_id_header": "<20260831.hr.014@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #14] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #14] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-015",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#15)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_015",
+      "thread_id": "mock_thd_hr_015",
+      "message_id_header": "<20260831.hr.015@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #15] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #15] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-016",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#16)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_016",
+      "thread_id": "mock_thd_hr_016",
+      "message_id_header": "<20260831.hr.016@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #16] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #16] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-017",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#17)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_017",
+      "thread_id": "mock_thd_hr_017",
+      "message_id_header": "<20260831.hr.017@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #17] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #17] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-018",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#18)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_018",
+      "thread_id": "mock_thd_hr_018",
+      "message_id_header": "<20260831.hr.018@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #18] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #18] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-019",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#19)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_019",
+      "thread_id": "mock_thd_hr_019",
+      "message_id_header": "<20260831.hr.019@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #19] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #19] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-020",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#20)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_020",
+      "thread_id": "mock_thd_hr_020",
+      "message_id_header": "<20260831.hr.020@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #20] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #20] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-021",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#21)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_021",
+      "thread_id": "mock_thd_hr_021",
+      "message_id_header": "<20260831.hr.021@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #21] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #21] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-022",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#22)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_022",
+      "thread_id": "mock_thd_hr_022",
+      "message_id_header": "<20260831.hr.022@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #22] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #22] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-023",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#23)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_023",
+      "thread_id": "mock_thd_hr_023",
+      "message_id_header": "<20260831.hr.023@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #23] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #23] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-024",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#24)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_024",
+      "thread_id": "mock_thd_hr_024",
+      "message_id_header": "<20260831.hr.024@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #24] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #24] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-025",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#25)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_025",
+      "thread_id": "mock_thd_hr_025",
+      "message_id_header": "<20260831.hr.025@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #25] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #25] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-026",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#26)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_026",
+      "thread_id": "mock_thd_hr_026",
+      "message_id_header": "<20260831.hr.026@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #26] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #26] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-027",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#27)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_027",
+      "thread_id": "mock_thd_hr_027",
+      "message_id_header": "<20260831.hr.027@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #27] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #27] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-028",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#28)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_028",
+      "thread_id": "mock_thd_hr_028",
+      "message_id_header": "<20260831.hr.028@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #28] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #28] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-029",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#29)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_029",
+      "thread_id": "mock_thd_hr_029",
+      "message_id_header": "<20260831.hr.029@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #29] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #29] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-030",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#30)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_030",
+      "thread_id": "mock_thd_hr_030",
+      "message_id_header": "<20260831.hr.030@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #30] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #30] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-031",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#31)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_031",
+      "thread_id": "mock_thd_hr_031",
+      "message_id_header": "<20260831.hr.031@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #31] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #31] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-032",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#32)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_032",
+      "thread_id": "mock_thd_hr_032",
+      "message_id_header": "<20260831.hr.032@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #32] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #32] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-033",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#33)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_033",
+      "thread_id": "mock_thd_hr_033",
+      "message_id_header": "<20260831.hr.033@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #33] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #33] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-034",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#34)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_034",
+      "thread_id": "mock_thd_hr_034",
+      "message_id_header": "<20260831.hr.034@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #34] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #34] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-035",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#35)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_035",
+      "thread_id": "mock_thd_hr_035",
+      "message_id_header": "<20260831.hr.035@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #35] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #35] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-036",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#36)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_036",
+      "thread_id": "mock_thd_hr_036",
+      "message_id_header": "<20260831.hr.036@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #36] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #36] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-037",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#37)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_037",
+      "thread_id": "mock_thd_hr_037",
+      "message_id_header": "<20260831.hr.037@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #37] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #37] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-038",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#38)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_038",
+      "thread_id": "mock_thd_hr_038",
+      "message_id_header": "<20260831.hr.038@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #38] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #38] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-039",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#39)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_039",
+      "thread_id": "mock_thd_hr_039",
+      "message_id_header": "<20260831.hr.039@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #39] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #39] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-040",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#40)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_040",
+      "thread_id": "mock_thd_hr_040",
+      "message_id_header": "<20260831.hr.040@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #40] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #40] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-041",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#41)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_041",
+      "thread_id": "mock_thd_hr_041",
+      "message_id_header": "<20260831.hr.041@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #41] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #41] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-042",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#42)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_042",
+      "thread_id": "mock_thd_hr_042",
+      "message_id_header": "<20260831.hr.042@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #42] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #42] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-043",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#43)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_043",
+      "thread_id": "mock_thd_hr_043",
+      "message_id_header": "<20260831.hr.043@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #43] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #43] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-044",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#44)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_044",
+      "thread_id": "mock_thd_hr_044",
+      "message_id_header": "<20260831.hr.044@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #44] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #44] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-045",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#45)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_045",
+      "thread_id": "mock_thd_hr_045",
+      "message_id_header": "<20260831.hr.045@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #45] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #45] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-046",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Confidential VP Engineering Candidate Offer Approval (#46)",
+    "description": "HR policy & talent operations: Please review and approve the offer letter and stock option grant for Principal Candidate.",
+    "email": {
+      "gmail_id": "mock_hr_046",
+      "thread_id": "mock_thd_hr_046",
+      "message_id_header": "<20260831.hr.046@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #46] Confidential VP Engineering Candidate Offer Approval",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #46] Confidential VP Engineering Candidate Offer Approval",
+      "snippet": "Please review and approve the offer letter and stock option grant for Principal Candidate.",
+      "body": "Hello Team,\n\nPlease review and approve the offer letter and stock option grant for Principal Candidate.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-047",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Annual Benefits Open Enrollment Deadline (#47)",
+    "description": "HR policy & talent operations: Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+    "email": {
+      "gmail_id": "mock_hr_047",
+      "thread_id": "mock_thd_hr_047",
+      "message_id_header": "<20260831.hr.047@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #47] Annual Benefits Open Enrollment Deadline",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #47] Annual Benefits Open Enrollment Deadline",
+      "snippet": "Open enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.",
+      "body": "Hello Team,\n\nOpen enrollment for medical, dental, and 401(k) benefits closes this Friday at 5 PM PST.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-048",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Q3 360-Degree Performance Review Cycle (#48)",
+    "description": "HR policy & talent operations: Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+    "email": {
+      "gmail_id": "mock_hr_048",
+      "thread_id": "mock_thd_hr_048",
+      "message_id_header": "<20260831.hr.048@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #48] Q3 360-Degree Performance Review Cycle",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #48] Q3 360-Degree Performance Review Cycle",
+      "snippet": "Please complete performance self-evaluations and peer reviews in Lattice by Sept 15.",
+      "body": "Hello Team,\n\nPlease complete performance self-evaluations and peer reviews in Lattice by Sept 15.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-049",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "H-1B Visa Legal Petition Document Request (#49)",
+    "description": "HR policy & talent operations: Immigration counsel requires updated job description and degree verification for visa filing.",
+    "email": {
+      "gmail_id": "mock_hr_049",
+      "thread_id": "mock_thd_hr_049",
+      "message_id_header": "<20260831.hr.049@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #49] H-1B Visa Legal Petition Document Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #49] H-1B Visa Legal Petition Document Request",
+      "snippet": "Immigration counsel requires updated job description and degree verification for visa filing.",
+      "body": "Hello Team,\n\nImmigration counsel requires updated job description and degree verification for visa filing.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "HR action required from employee",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-HR-050",
+    "suite": "hr_people_ops",
+    "domain": "HR, Talent & People Operations",
+    "title": "Company All-Hands Townhall Meeting (#50)",
+    "description": "HR policy & talent operations: Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+    "email": {
+      "gmail_id": "mock_hr_050",
+      "thread_id": "mock_thd_hr_050",
+      "message_id_header": "<20260831.hr.050@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 13:00:00 -0700",
+        "From": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[PEOPLE OPS #50] Company All-Hands Townhall Meeting",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Olivia Martinez <olivia.martinez@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[PEOPLE OPS #50] Company All-Hands Townhall Meeting",
+      "snippet": "Join us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.",
+      "body": "Hello Team,\n\nJoin us for our monthly all-hands townhall with CEO Victoria Sterling on Thursday at 11 AM.\n\nPlease reach out to hr-team@yourcompany.com if you have any questions.\n\nWarm regards,\n\nOlivia Martinez\nVP of People & Talent\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0108 | olivia.martinez@yourcompany.com",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Company-wide informational announcement",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "hr",
+        "onboarding",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  }
+]

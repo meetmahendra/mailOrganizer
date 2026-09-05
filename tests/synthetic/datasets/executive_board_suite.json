@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "TEST-EXEC-001",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#1)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_001",
+      "thread_id": "mock_thd_exec_001",
+      "message_id_header": "<20260831.exec.001@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #1",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #1",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-002",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#2)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_002",
+      "thread_id": "mock_thd_exec_002",
+      "message_id_header": "<20260831.exec.002@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #2",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #2",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-003",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#3)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_003",
+      "thread_id": "mock_thd_exec_003",
+      "message_id_header": "<20260831.exec.003@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #3",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #3",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-004",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#4)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_004",
+      "thread_id": "mock_thd_exec_004",
+      "message_id_header": "<20260831.exec.004@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #4",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #4",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-005",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#5)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_005",
+      "thread_id": "mock_thd_exec_005",
+      "message_id_header": "<20260831.exec.005@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #5",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #5",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-006",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#6)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_006",
+      "thread_id": "mock_thd_exec_006",
+      "message_id_header": "<20260831.exec.006@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #6",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #6",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-007",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#7)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_007",
+      "thread_id": "mock_thd_exec_007",
+      "message_id_header": "<20260831.exec.007@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #7",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #7",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-008",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#8)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_008",
+      "thread_id": "mock_thd_exec_008",
+      "message_id_header": "<20260831.exec.008@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #8",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #8",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-009",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#9)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_009",
+      "thread_id": "mock_thd_exec_009",
+      "message_id_header": "<20260831.exec.009@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #9",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #9",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-010",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#10)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_010",
+      "thread_id": "mock_thd_exec_010",
+      "message_id_header": "<20260831.exec.010@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #10",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #10",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-011",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#11)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_011",
+      "thread_id": "mock_thd_exec_011",
+      "message_id_header": "<20260831.exec.011@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #11",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #11",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-012",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#12)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_012",
+      "thread_id": "mock_thd_exec_012",
+      "message_id_header": "<20260831.exec.012@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #12",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #12",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-013",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#13)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_013",
+      "thread_id": "mock_thd_exec_013",
+      "message_id_header": "<20260831.exec.013@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #13",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #13",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-014",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#14)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_014",
+      "thread_id": "mock_thd_exec_014",
+      "message_id_header": "<20260831.exec.014@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #14",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #14",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-015",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#15)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_015",
+      "thread_id": "mock_thd_exec_015",
+      "message_id_header": "<20260831.exec.015@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #15",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #15",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-016",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#16)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_016",
+      "thread_id": "mock_thd_exec_016",
+      "message_id_header": "<20260831.exec.016@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #16",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #16",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-017",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#17)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_017",
+      "thread_id": "mock_thd_exec_017",
+      "message_id_header": "<20260831.exec.017@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #17",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #17",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-018",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#18)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_018",
+      "thread_id": "mock_thd_exec_018",
+      "message_id_header": "<20260831.exec.018@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #18",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #18",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-019",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#19)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_019",
+      "thread_id": "mock_thd_exec_019",
+      "message_id_header": "<20260831.exec.019@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #19",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #19",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-020",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#20)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_020",
+      "thread_id": "mock_thd_exec_020",
+      "message_id_header": "<20260831.exec.020@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #20",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #20",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-021",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#21)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_021",
+      "thread_id": "mock_thd_exec_021",
+      "message_id_header": "<20260831.exec.021@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #21",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #21",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-022",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#22)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_022",
+      "thread_id": "mock_thd_exec_022",
+      "message_id_header": "<20260831.exec.022@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #22",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #22",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-023",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#23)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_023",
+      "thread_id": "mock_thd_exec_023",
+      "message_id_header": "<20260831.exec.023@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #23",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #23",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-024",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#24)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_024",
+      "thread_id": "mock_thd_exec_024",
+      "message_id_header": "<20260831.exec.024@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #24",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #24",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-025",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#25)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_025",
+      "thread_id": "mock_thd_exec_025",
+      "message_id_header": "<20260831.exec.025@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #25",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #25",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-026",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#26)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_026",
+      "thread_id": "mock_thd_exec_026",
+      "message_id_header": "<20260831.exec.026@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #26",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #26",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-027",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#27)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_027",
+      "thread_id": "mock_thd_exec_027",
+      "message_id_header": "<20260831.exec.027@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #27",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #27",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-028",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#28)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_028",
+      "thread_id": "mock_thd_exec_028",
+      "message_id_header": "<20260831.exec.028@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #28",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #28",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-029",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#29)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_029",
+      "thread_id": "mock_thd_exec_029",
+      "message_id_header": "<20260831.exec.029@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #29",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #29",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-030",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#30)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_030",
+      "thread_id": "mock_thd_exec_030",
+      "message_id_header": "<20260831.exec.030@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #30",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #30",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-031",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#31)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_031",
+      "thread_id": "mock_thd_exec_031",
+      "message_id_header": "<20260831.exec.031@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #31",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #31",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-032",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#32)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_032",
+      "thread_id": "mock_thd_exec_032",
+      "message_id_header": "<20260831.exec.032@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #32",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #32",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-033",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#33)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_033",
+      "thread_id": "mock_thd_exec_033",
+      "message_id_header": "<20260831.exec.033@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #33",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #33",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-034",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#34)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_034",
+      "thread_id": "mock_thd_exec_034",
+      "message_id_header": "<20260831.exec.034@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #34",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #34",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-035",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#35)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_035",
+      "thread_id": "mock_thd_exec_035",
+      "message_id_header": "<20260831.exec.035@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #35",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #35",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-036",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#36)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_036",
+      "thread_id": "mock_thd_exec_036",
+      "message_id_header": "<20260831.exec.036@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #36",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #36",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-037",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#37)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_037",
+      "thread_id": "mock_thd_exec_037",
+      "message_id_header": "<20260831.exec.037@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #37",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #37",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-038",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#38)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_038",
+      "thread_id": "mock_thd_exec_038",
+      "message_id_header": "<20260831.exec.038@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #38",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #38",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-039",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#39)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_039",
+      "thread_id": "mock_thd_exec_039",
+      "message_id_header": "<20260831.exec.039@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #39",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #39",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-040",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#40)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_040",
+      "thread_id": "mock_thd_exec_040",
+      "message_id_header": "<20260831.exec.040@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #40",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #40",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-041",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#41)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_041",
+      "thread_id": "mock_thd_exec_041",
+      "message_id_header": "<20260831.exec.041@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #41",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #41",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-042",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#42)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_042",
+      "thread_id": "mock_thd_exec_042",
+      "message_id_header": "<20260831.exec.042@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #42",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #42",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-043",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#43)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_043",
+      "thread_id": "mock_thd_exec_043",
+      "message_id_header": "<20260831.exec.043@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #43",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #43",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-044",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#44)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_044",
+      "thread_id": "mock_thd_exec_044",
+      "message_id_header": "<20260831.exec.044@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #44",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #44",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-045",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#45)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_045",
+      "thread_id": "mock_thd_exec_045",
+      "message_id_header": "<20260831.exec.045@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #45",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #45",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-046",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Board of Directors Q3 Pre-Read Review (#46)",
+    "description": "Executive directive from CEO/CTO: Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+    "email": {
+      "gmail_id": "mock_exec_046",
+      "thread_id": "mock_thd_exec_046",
+      "message_id_header": "<20260831.exec.046@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #46",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Board of Directors Q3 Pre-Read Review - Urgent Review #46",
+      "snippet": "Please review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.",
+      "body": "Hi Marcus,\n\nPlease review the attached confidential Q3 board deck and financial performance model before tomorrow's 9 AM executive committee sync.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-047",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Confidential M&A NDA Review (#47)",
+    "description": "Executive directive from CEO/CTO: Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+    "email": {
+      "gmail_id": "mock_exec_047",
+      "thread_id": "mock_thd_exec_047",
+      "message_id_header": "<20260831.exec.047@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #47",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Confidential M&A NDA Review - Urgent Review #47",
+      "snippet": "Outside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.",
+      "body": "Hi Marcus,\n\nOutside counsel has provided the draft NDA for the Project Horizon acquisition. Need your sign-off by 4 PM today.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-048",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Series C Investor Due Diligence Q&A (#48)",
+    "description": "Executive directive from CEO/CTO: Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+    "email": {
+      "gmail_id": "mock_exec_048",
+      "thread_id": "mock_thd_exec_048",
+      "message_id_header": "<20260831.exec.048@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #48",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Series C Investor Due Diligence Q&A - Urgent Review #48",
+      "snippet": "Lead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.",
+      "body": "Hi Marcus,\n\nLead investor Sequoia has sent over follow-up questions on our unit economics and net dollar retention.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-049",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "Executive 1:1 Calendar Reschedule (#49)",
+    "description": "Executive directive from CEO/CTO: Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+    "email": {
+      "gmail_id": "mock_exec_049",
+      "thread_id": "mock_thd_exec_049",
+      "message_id_header": "<20260831.exec.049@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #49",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] Executive 1:1 Calendar Reschedule - Urgent Review #49",
+      "snippet": "Marcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.",
+      "body": "Hi Marcus,\n\nMarcus, can we shift our 1:1 sync from Thursday 2 PM to Friday 10 AM? Victoria wants to join.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Calendar/Scheduling",
+      "acceptable_categories": [
+        "Calendar/Scheduling"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct executive request from CEO requiring response/action",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": true,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-EXEC-050",
+    "suite": "executive_board",
+    "domain": "Executive Leadership & Board Governance",
+    "title": "All-Hands Townhall Strategy Announcement (#50)",
+    "description": "Executive directive from CEO/CTO: Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+    "email": {
+      "gmail_id": "mock_exec_050",
+      "thread_id": "mock_thd_exec_050",
+      "message_id_header": "<20260831.exec.050@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 08:30:00 -0700",
+        "From": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #50",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Victoria Sterling <victoria.sterling@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[CONFIDENTIAL] All-Hands Townhall Strategy Announcement - Urgent Review #50",
+      "snippet": "Drafting our company-wide memo on the Q4 strategic goals and market expansion.",
+      "body": "Hi Marcus,\n\nDrafting our company-wide memo on the Q4 strategic goals and market expansion.\n\nPlease let me know your thoughts or send your approval as soon as you have reviewed.\n\nBest regards,\n\nVictoria Sterling\nChief Executive Officer\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0100 | victoria.sterling@yourcompany.com\n\n---\nCONFIDENTIAL & PRIVILEGED | For internal C-Suite use only.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational executive update",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "executive",
+        "management",
+        "internal"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

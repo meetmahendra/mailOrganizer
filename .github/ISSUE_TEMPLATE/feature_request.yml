@@ -1,0 +1,46 @@
+name: 💡 Feature or Connector Request
+description: Propose a new feature, LLM provider, email service, or PM connector
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: What type of enhancement are you proposing?
+      options:
+        - New Email Provider (e.g., Microsoft Graph / Outlook, IMAP/SMTP)
+        - Local / Offline LLM (e.g., Ollama, vLLM, LMStudio)
+        - Productivity Connector (e.g., Linear, Notion, Todoist, Slack)
+        - Web UI / Dashboard
+        - Safety & Guardrail Enhancements
+        - MCP Tool Extension
+        - Documentation / Testing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_story
+    attributes:
+      label: Use Case / Problem Statement
+      description: What problem would this solve, or what workflow does this enable?
+      placeholder: As a user, I want to connect my Outlook inbox so that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution / Architecture
+      description: A clear description of how you envision this working.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've evaluated.
+    validations:
+      required: false

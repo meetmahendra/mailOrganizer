@@ -1,0 +1,2952 @@
+[
+  {
+    "id": "TEST-PROC-001",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#1)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_001",
+      "thread_id": "mock_thd_proc_001",
+      "message_id_header": "<20260831.proc.001@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-1@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #1] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-1@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #1] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10001\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/1\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-002",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#2)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_002",
+      "thread_id": "mock_thd_proc_002",
+      "message_id_header": "<20260831.proc.002@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-2@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #2] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-2@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #2] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10002\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/2\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-003",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#3)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_003",
+      "thread_id": "mock_thd_proc_003",
+      "message_id_header": "<20260831.proc.003@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-3@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #3] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-3@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #3] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10003\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/3\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-004",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#4)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_004",
+      "thread_id": "mock_thd_proc_004",
+      "message_id_header": "<20260831.proc.004@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-4@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #4] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-4@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #4] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10004\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/4\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-005",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#5)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_005",
+      "thread_id": "mock_thd_proc_005",
+      "message_id_header": "<20260831.proc.005@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-5@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #5] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-5@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #5] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10005\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/5\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-006",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#6)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_006",
+      "thread_id": "mock_thd_proc_006",
+      "message_id_header": "<20260831.proc.006@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-6@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #6] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-6@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #6] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10006\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/6\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-007",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#7)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_007",
+      "thread_id": "mock_thd_proc_007",
+      "message_id_header": "<20260831.proc.007@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-7@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #7] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-7@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #7] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10007\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/7\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-008",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#8)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_008",
+      "thread_id": "mock_thd_proc_008",
+      "message_id_header": "<20260831.proc.008@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-8@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #8] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-8@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #8] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10008\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/8\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-009",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#9)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_009",
+      "thread_id": "mock_thd_proc_009",
+      "message_id_header": "<20260831.proc.009@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-9@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #9] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-9@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #9] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10009\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/9\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-010",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#10)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_010",
+      "thread_id": "mock_thd_proc_010",
+      "message_id_header": "<20260831.proc.010@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-10@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #10] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-10@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #10] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10010\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/10\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-011",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#11)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_011",
+      "thread_id": "mock_thd_proc_011",
+      "message_id_header": "<20260831.proc.011@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-11@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #11] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-11@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #11] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10011\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/11\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-012",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#12)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_012",
+      "thread_id": "mock_thd_proc_012",
+      "message_id_header": "<20260831.proc.012@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-12@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #12] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-12@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #12] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10012\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/12\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-013",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#13)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_013",
+      "thread_id": "mock_thd_proc_013",
+      "message_id_header": "<20260831.proc.013@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-13@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #13] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-13@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #13] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10013\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/13\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-014",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#14)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_014",
+      "thread_id": "mock_thd_proc_014",
+      "message_id_header": "<20260831.proc.014@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-14@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #14] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-14@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #14] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10014\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/14\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-015",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#15)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_015",
+      "thread_id": "mock_thd_proc_015",
+      "message_id_header": "<20260831.proc.015@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-15@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #15] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-15@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #15] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10015\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/15\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-016",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#16)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_016",
+      "thread_id": "mock_thd_proc_016",
+      "message_id_header": "<20260831.proc.016@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-16@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #16] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-16@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #16] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10016\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/16\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-017",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#17)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_017",
+      "thread_id": "mock_thd_proc_017",
+      "message_id_header": "<20260831.proc.017@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-17@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #17] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-17@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #17] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10017\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/17\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-018",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#18)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_018",
+      "thread_id": "mock_thd_proc_018",
+      "message_id_header": "<20260831.proc.018@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-18@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #18] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-18@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #18] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10018\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/18\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-019",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#19)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_019",
+      "thread_id": "mock_thd_proc_019",
+      "message_id_header": "<20260831.proc.019@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-19@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #19] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-19@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #19] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10019\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/19\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-020",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#20)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_020",
+      "thread_id": "mock_thd_proc_020",
+      "message_id_header": "<20260831.proc.020@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-20@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #20] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-20@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #20] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10020\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/20\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-021",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#21)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_021",
+      "thread_id": "mock_thd_proc_021",
+      "message_id_header": "<20260831.proc.021@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-21@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #21] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-21@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #21] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10021\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/21\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-022",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#22)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_022",
+      "thread_id": "mock_thd_proc_022",
+      "message_id_header": "<20260831.proc.022@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-22@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #22] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-22@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #22] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10022\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/22\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-023",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#23)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_023",
+      "thread_id": "mock_thd_proc_023",
+      "message_id_header": "<20260831.proc.023@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-23@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #23] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-23@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #23] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10023\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/23\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-024",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#24)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_024",
+      "thread_id": "mock_thd_proc_024",
+      "message_id_header": "<20260831.proc.024@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-24@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #24] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-24@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #24] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10024\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/24\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-025",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#25)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_025",
+      "thread_id": "mock_thd_proc_025",
+      "message_id_header": "<20260831.proc.025@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-25@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #25] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-25@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #25] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10025\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/25\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-026",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#26)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_026",
+      "thread_id": "mock_thd_proc_026",
+      "message_id_header": "<20260831.proc.026@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-26@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #26] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-26@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #26] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10026\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/26\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-027",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#27)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_027",
+      "thread_id": "mock_thd_proc_027",
+      "message_id_header": "<20260831.proc.027@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-27@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #27] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-27@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #27] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10027\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/27\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-028",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#28)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_028",
+      "thread_id": "mock_thd_proc_028",
+      "message_id_header": "<20260831.proc.028@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-28@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #28] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-28@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #28] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10028\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/28\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-029",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#29)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_029",
+      "thread_id": "mock_thd_proc_029",
+      "message_id_header": "<20260831.proc.029@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-29@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #29] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-29@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #29] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10029\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/29\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-030",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#30)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_030",
+      "thread_id": "mock_thd_proc_030",
+      "message_id_header": "<20260831.proc.030@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-30@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #30] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-30@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #30] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10030\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/30\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-031",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#31)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_031",
+      "thread_id": "mock_thd_proc_031",
+      "message_id_header": "<20260831.proc.031@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-31@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #31] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-31@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #31] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10031\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/31\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-032",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#32)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_032",
+      "thread_id": "mock_thd_proc_032",
+      "message_id_header": "<20260831.proc.032@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-32@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #32] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-32@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #32] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10032\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/32\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-033",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#33)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_033",
+      "thread_id": "mock_thd_proc_033",
+      "message_id_header": "<20260831.proc.033@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-33@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #33] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-33@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #33] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10033\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/33\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-034",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#34)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_034",
+      "thread_id": "mock_thd_proc_034",
+      "message_id_header": "<20260831.proc.034@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-34@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #34] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-34@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #34] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10034\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/34\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-035",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#35)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_035",
+      "thread_id": "mock_thd_proc_035",
+      "message_id_header": "<20260831.proc.035@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-35@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #35] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-35@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #35] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10035\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/35\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-036",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#36)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_036",
+      "thread_id": "mock_thd_proc_036",
+      "message_id_header": "<20260831.proc.036@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-36@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #36] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-36@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #36] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10036\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/36\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-037",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#37)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_037",
+      "thread_id": "mock_thd_proc_037",
+      "message_id_header": "<20260831.proc.037@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-37@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #37] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-37@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #37] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10037\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/37\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-038",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#38)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_038",
+      "thread_id": "mock_thd_proc_038",
+      "message_id_header": "<20260831.proc.038@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-38@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #38] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-38@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #38] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10038\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/38\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-039",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#39)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_039",
+      "thread_id": "mock_thd_proc_039",
+      "message_id_header": "<20260831.proc.039@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-39@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #39] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-39@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #39] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10039\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/39\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-040",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#40)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_040",
+      "thread_id": "mock_thd_proc_040",
+      "message_id_header": "<20260831.proc.040@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-40@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #40] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-40@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #40] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10040\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/40\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-041",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#41)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_041",
+      "thread_id": "mock_thd_proc_041",
+      "message_id_header": "<20260831.proc.041@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-41@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #41] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-41@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #41] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10041\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/41\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-042",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#42)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_042",
+      "thread_id": "mock_thd_proc_042",
+      "message_id_header": "<20260831.proc.042@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-42@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #42] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-42@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #42] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10042\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/42\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-043",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#43)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_043",
+      "thread_id": "mock_thd_proc_043",
+      "message_id_header": "<20260831.proc.043@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-43@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #43] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-43@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #43] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10043\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/43\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-044",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#44)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_044",
+      "thread_id": "mock_thd_proc_044",
+      "message_id_header": "<20260831.proc.044@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-44@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #44] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-44@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #44] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10044\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/44\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-045",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#45)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_045",
+      "thread_id": "mock_thd_proc_045",
+      "message_id_header": "<20260831.proc.045@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-45@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #45] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-45@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #45] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10045\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/45\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-046",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Snowflake Annual Data Warehouse Contract Renewal (#46)",
+    "description": "Financial transaction: Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+    "email": {
+      "gmail_id": "mock_proc_046",
+      "thread_id": "mock_thd_proc_046",
+      "message_id_header": "<20260831.proc.046@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-46@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #46] Snowflake Annual Data Warehouse Contract Renewal",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-46@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #46] Snowflake Annual Data Warehouse Contract Renewal",
+      "snippet": "Your Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.",
+      "body": "Invoice Summary:\n\nYour Snowflake enterprise subscription is set to renew on Oct 1, 2026. Annual commitment: $180,000.\n\nInvoice ID: INV-2026-10046\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/46\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-047",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "AWS Consolidated Monthly Billing Invoice (#47)",
+    "description": "Financial transaction: Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+    "email": {
+      "gmail_id": "mock_proc_047",
+      "thread_id": "mock_thd_proc_047",
+      "message_id_header": "<20260831.proc.047@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-47@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #47] AWS Consolidated Monthly Billing Invoice",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-47@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #47] AWS Consolidated Monthly Billing Invoice",
+      "snippet": "Your Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.",
+      "body": "Invoice Summary:\n\nYour Amazon Web Services invoice for August 2026 is available. Total Amount Charged: $48,291.80.\n\nInvoice ID: INV-2026-10047\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/47\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-048",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Stripe Merchant Account Settlement Receipt (#48)",
+    "description": "Financial transaction: Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+    "email": {
+      "gmail_id": "mock_proc_048",
+      "thread_id": "mock_thd_proc_048",
+      "message_id_header": "<20260831.proc.048@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-48@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #48] Stripe Merchant Account Settlement Receipt",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-48@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #48] Stripe Merchant Account Settlement Receipt",
+      "snippet": "Your daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.",
+      "body": "Invoice Summary:\n\nYour daily payout of $142,500.00 USD has been initiated to Silicon Valley Bank Account **8821.\n\nInvoice ID: INV-2026-10048\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/48\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial receipt; no reply needed",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-049",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Vendor W-9 & Tax Residency Certificate Request (#49)",
+    "description": "Financial transaction: Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+    "email": {
+      "gmail_id": "mock_proc_049",
+      "thread_id": "mock_thd_proc_049",
+      "message_id_header": "<20260831.proc.049@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-49@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #49] Vendor W-9 & Tax Residency Certificate Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-49@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #49] Vendor W-9 & Tax Residency Certificate Request",
+      "snippet": "Please submit your completed W-9 form and ACH payment remittance details for vendor onboarding.",
+      "body": "Invoice Summary:\n\nPlease submit your completed W-9 form and ACH payment remittance details for vendor onboarding.\n\nInvoice ID: INV-2026-10049\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/49\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-PROC-050",
+    "suite": "finance_procurement",
+    "domain": "Procurement, Invoicing & Corporate Finance",
+    "title": "Employee Expense Report Approval Request (#50)",
+    "description": "Financial transaction: Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+    "email": {
+      "gmail_id": "mock_proc_050",
+      "thread_id": "mock_thd_proc_050",
+      "message_id_header": "<20260831.proc.050@vendor-billing.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 16:00:00 -0400",
+        "From": "Stripe Billing <invoices-50@stripe.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[INVOICE & RECEIPTS #50] Employee Expense Report Approval Request",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Stripe Billing <invoices-50@stripe.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[INVOICE & RECEIPTS #50] Employee Expense Report Approval Request",
+      "snippet": "Lucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).",
+      "body": "Invoice Summary:\n\nLucas Silva submitted an expense report for $1,450.00 (AWS Summit registration & hotel).\n\nInvoice ID: INV-2026-10050\nBilling Period: Aug 01, 2026 - Aug 31, 2026\nPayment Method: Corporate Direct Debit (**8821)\n\nDownload PDF receipt: https://dashboard.stripe.com/invoices/50\n\nThank you for your business.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        4,
+        6
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Vendor renewal or review action",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "Finance/Receipts"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "invoice",
+        "finance",
+        "payment"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

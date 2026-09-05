@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "TEST-OPS-001",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #1)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_001",
+      "thread_id": "mock_thd_ops_001",
+      "message_id_header": "<20260831.ops.001@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-1@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #1] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-1@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #1] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9001\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=1\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-002",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #2)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_002",
+      "thread_id": "mock_thd_ops_002",
+      "message_id_header": "<20260831.ops.002@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-2@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #2] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-2@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #2] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9002\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=2\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-003",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #3)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_003",
+      "thread_id": "mock_thd_ops_003",
+      "message_id_header": "<20260831.ops.003@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-3@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #3] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-3@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #3] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9003\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=3\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-004",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #4)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_004",
+      "thread_id": "mock_thd_ops_004",
+      "message_id_header": "<20260831.ops.004@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-4@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #4] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-4@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #4] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9004\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=4\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-005",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #5)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_005",
+      "thread_id": "mock_thd_ops_005",
+      "message_id_header": "<20260831.ops.005@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-5@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #5] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-5@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #5] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9005\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=5\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-006",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #6)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_006",
+      "thread_id": "mock_thd_ops_006",
+      "message_id_header": "<20260831.ops.006@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-6@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #6] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-6@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #6] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9006\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=6\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-007",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #7)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_007",
+      "thread_id": "mock_thd_ops_007",
+      "message_id_header": "<20260831.ops.007@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-7@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #7] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-7@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #7] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9007\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=7\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-008",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #8)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_008",
+      "thread_id": "mock_thd_ops_008",
+      "message_id_header": "<20260831.ops.008@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-8@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #8] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-8@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #8] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9008\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=8\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-009",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #9)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_009",
+      "thread_id": "mock_thd_ops_009",
+      "message_id_header": "<20260831.ops.009@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-9@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #9] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-9@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #9] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9009\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=9\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-010",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #10)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_010",
+      "thread_id": "mock_thd_ops_010",
+      "message_id_header": "<20260831.ops.010@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-10@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #10] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-10@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #10] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9010\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=10\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-011",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #11)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_011",
+      "thread_id": "mock_thd_ops_011",
+      "message_id_header": "<20260831.ops.011@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-11@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #11] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-11@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #11] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9011\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=11\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-012",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #12)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_012",
+      "thread_id": "mock_thd_ops_012",
+      "message_id_header": "<20260831.ops.012@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-12@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #12] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-12@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #12] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9012\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=12\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-013",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #13)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_013",
+      "thread_id": "mock_thd_ops_013",
+      "message_id_header": "<20260831.ops.013@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-13@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #13] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-13@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #13] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9013\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=13\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-014",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #14)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_014",
+      "thread_id": "mock_thd_ops_014",
+      "message_id_header": "<20260831.ops.014@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-14@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #14] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-14@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #14] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9014\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=14\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-015",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #15)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_015",
+      "thread_id": "mock_thd_ops_015",
+      "message_id_header": "<20260831.ops.015@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-15@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #15] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-15@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #15] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9015\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=15\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-016",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #16)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_016",
+      "thread_id": "mock_thd_ops_016",
+      "message_id_header": "<20260831.ops.016@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-16@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #16] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-16@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #16] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9016\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=16\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-017",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #17)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_017",
+      "thread_id": "mock_thd_ops_017",
+      "message_id_header": "<20260831.ops.017@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-17@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #17] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-17@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #17] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9017\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=17\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-018",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #18)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_018",
+      "thread_id": "mock_thd_ops_018",
+      "message_id_header": "<20260831.ops.018@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-18@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #18] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-18@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #18] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9018\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=18\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-019",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #19)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_019",
+      "thread_id": "mock_thd_ops_019",
+      "message_id_header": "<20260831.ops.019@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-19@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #19] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-19@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #19] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9019\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=19\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-020",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #20)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_020",
+      "thread_id": "mock_thd_ops_020",
+      "message_id_header": "<20260831.ops.020@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-20@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #20] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-20@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #20] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9020\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=20\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-021",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #21)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_021",
+      "thread_id": "mock_thd_ops_021",
+      "message_id_header": "<20260831.ops.021@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-21@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #21] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-21@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #21] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9021\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=21\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-022",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #22)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_022",
+      "thread_id": "mock_thd_ops_022",
+      "message_id_header": "<20260831.ops.022@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-22@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #22] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-22@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #22] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9022\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=22\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-023",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #23)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_023",
+      "thread_id": "mock_thd_ops_023",
+      "message_id_header": "<20260831.ops.023@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-23@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #23] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-23@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #23] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9023\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=23\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-024",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #24)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_024",
+      "thread_id": "mock_thd_ops_024",
+      "message_id_header": "<20260831.ops.024@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-24@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #24] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-24@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #24] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9024\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=24\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-025",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #25)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_025",
+      "thread_id": "mock_thd_ops_025",
+      "message_id_header": "<20260831.ops.025@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-25@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #25] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-25@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #25] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9025\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=25\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-026",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #26)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_026",
+      "thread_id": "mock_thd_ops_026",
+      "message_id_header": "<20260831.ops.026@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-26@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #26] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-26@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #26] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9026\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=26\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-027",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #27)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_027",
+      "thread_id": "mock_thd_ops_027",
+      "message_id_header": "<20260831.ops.027@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-27@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #27] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-27@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #27] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9027\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=27\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-028",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #28)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_028",
+      "thread_id": "mock_thd_ops_028",
+      "message_id_header": "<20260831.ops.028@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-28@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #28] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-28@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #28] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9028\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=28\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-029",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #29)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_029",
+      "thread_id": "mock_thd_ops_029",
+      "message_id_header": "<20260831.ops.029@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-29@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #29] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-29@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #29] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9029\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=29\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-030",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #30)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_030",
+      "thread_id": "mock_thd_ops_030",
+      "message_id_header": "<20260831.ops.030@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-30@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #30] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-30@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #30] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9030\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=30\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-031",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #31)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_031",
+      "thread_id": "mock_thd_ops_031",
+      "message_id_header": "<20260831.ops.031@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-31@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #31] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-31@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #31] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9031\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=31\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-032",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #32)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_032",
+      "thread_id": "mock_thd_ops_032",
+      "message_id_header": "<20260831.ops.032@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-32@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #32] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-32@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #32] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9032\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=32\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-033",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #33)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_033",
+      "thread_id": "mock_thd_ops_033",
+      "message_id_header": "<20260831.ops.033@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-33@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #33] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-33@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #33] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9033\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=33\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-034",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #34)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_034",
+      "thread_id": "mock_thd_ops_034",
+      "message_id_header": "<20260831.ops.034@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-34@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #34] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-34@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #34] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9034\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=34\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-035",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #35)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_035",
+      "thread_id": "mock_thd_ops_035",
+      "message_id_header": "<20260831.ops.035@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-35@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #35] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-35@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #35] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9035\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=35\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-036",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #36)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_036",
+      "thread_id": "mock_thd_ops_036",
+      "message_id_header": "<20260831.ops.036@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-36@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #36] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-36@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #36] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9036\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=36\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-037",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #37)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_037",
+      "thread_id": "mock_thd_ops_037",
+      "message_id_header": "<20260831.ops.037@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-37@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #37] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-37@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #37] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9037\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=37\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-038",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #38)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_038",
+      "thread_id": "mock_thd_ops_038",
+      "message_id_header": "<20260831.ops.038@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-38@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #38] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-38@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #38] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9038\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=38\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-039",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #39)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_039",
+      "thread_id": "mock_thd_ops_039",
+      "message_id_header": "<20260831.ops.039@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-39@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #39] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-39@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #39] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9039\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=39\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-040",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #40)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_040",
+      "thread_id": "mock_thd_ops_040",
+      "message_id_header": "<20260831.ops.040@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-40@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #40] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-40@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #40] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9040\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=40\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-041",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #41)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_041",
+      "thread_id": "mock_thd_ops_041",
+      "message_id_header": "<20260831.ops.041@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-41@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #41] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-41@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #41] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9041\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=41\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-042",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #42)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_042",
+      "thread_id": "mock_thd_ops_042",
+      "message_id_header": "<20260831.ops.042@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-42@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #42] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-42@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #42] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9042\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=42\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-043",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #43)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_043",
+      "thread_id": "mock_thd_ops_043",
+      "message_id_header": "<20260831.ops.043@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-43@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #43] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-43@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #43] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9043\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=43\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-044",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #44)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_044",
+      "thread_id": "mock_thd_ops_044",
+      "message_id_header": "<20260831.ops.044@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-44@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #44] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-44@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #44] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9044\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=44\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-045",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #45)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_045",
+      "thread_id": "mock_thd_ops_045",
+      "message_id_header": "<20260831.ops.045@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-45@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #45] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-45@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #45] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9045\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=45\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-046",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Datadog APM Latency Spike >2500ms (Event #46)",
+    "description": "Infrastructure monitoring alert: Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+    "email": {
+      "gmail_id": "mock_ops_046",
+      "thread_id": "mock_thd_ops_046",
+      "message_id_header": "<20260831.ops.046@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-46@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #46] Datadog APM Latency Spike >2500ms",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-46@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #46] Datadog APM Latency Spike >2500ms",
+      "snippet": "Core checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Datadog APM Latency Spike >2500ms\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9046\n\nDetails:\nCore checkout latency exceeded P99 SLA threshold (3,120ms vs 500ms max). 12% HTTP 504 gateway timeouts.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=46\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-047",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Kubernetes Pod CrashLoopBackOff OOMKilled (Event #47)",
+    "description": "Infrastructure monitoring alert: Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+    "email": {
+      "gmail_id": "mock_ops_047",
+      "thread_id": "mock_thd_ops_047",
+      "message_id_header": "<20260831.ops.047@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-47@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #47] Kubernetes Pod CrashLoopBackOff OOMKilled",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-47@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #47] Kubernetes Pod CrashLoopBackOff OOMKilled",
+      "snippet": "Pod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Kubernetes Pod CrashLoopBackOff OOMKilled\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9047\n\nDetails:\nPod payment-worker-v2 terminated due to Exit Code 137 (OOMKilled) in cluster prod-us-east-1.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=47\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-048",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "AWS RDS PostgreSQL Multi-AZ Failover (Event #48)",
+    "description": "Infrastructure monitoring alert: Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+    "email": {
+      "gmail_id": "mock_ops_048",
+      "thread_id": "mock_thd_ops_048",
+      "message_id_header": "<20260831.ops.048@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-48@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #48] AWS RDS PostgreSQL Multi-AZ Failover",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-48@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #48] AWS RDS PostgreSQL Multi-AZ Failover",
+      "snippet": "Primary database instance db-core-prod experienced failover to secondary replica in us-east-1b.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: AWS RDS PostgreSQL Multi-AZ Failover\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9048\n\nDetails:\nPrimary database instance db-core-prod experienced failover to secondary replica in us-east-1b.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=48\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-049",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Cloudflare DDoS Mitigation Event (Event #49)",
+    "description": "Infrastructure monitoring alert: DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+    "email": {
+      "gmail_id": "mock_ops_049",
+      "thread_id": "mock_thd_ops_049",
+      "message_id_header": "<20260831.ops.049@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-49@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #49] Cloudflare DDoS Mitigation Event",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-49@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #49] Cloudflare DDoS Mitigation Event",
+      "snippet": "DDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Cloudflare DDoS Mitigation Event\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9049\n\nDetails:\nDDoS mitigation active on api.yourcompany.com. 450,000 malicious SYN packets dropped per second.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=49\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-OPS-050",
+    "suite": "cloud_devops_sre",
+    "domain": "Cloud Infrastructure & DevOps/SRE",
+    "title": "Wildcard SSL Certificate Renewal Notice (Event #50)",
+    "description": "Infrastructure monitoring alert: Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+    "email": {
+      "gmail_id": "mock_ops_050",
+      "thread_id": "mock_thd_ops_050",
+      "message_id_header": "<20260831.ops.050@alerts.datadog.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:12:00 -0700",
+        "From": "Datadog Alerts <alerts-noreply-50@datadog.com>",
+        "To": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+        "Subject": "[CRITICAL P0 ALERT #50] Wildcard SSL Certificate Renewal Notice",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Datadog Alerts <alerts-noreply-50@datadog.com>",
+      "to": "Sarah Jenkins <sarah.jenkins@yourcompany.com>",
+      "subject": "[CRITICAL P0 ALERT #50] Wildcard SSL Certificate Renewal Notice",
+      "snippet": "Certificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.",
+      "body": "ALERT NOTIFICATION:\n\nTriggered Alert: Wildcard SSL Certificate Renewal Notice\nSeverity: CRITICAL (P0)\nEnvironment: Production (us-east-1)\nIncident ID: INC-9050\n\nDetails:\nCertificate for *.yourcompany.com will expire in 7 days. Automated renewal token pending validation.\n\nGrafana Dashboard: https://grafana.yourcompany.com/d/core-health?var-id=50\nOn-Call: Sarah Jenkins / SRE Team\nRunbook: https://wiki.yourcompany.com/sre/p0-runbook",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "System Alert",
+      "acceptable_categories": [
+        "System Alert",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated infrastructure monitoring notification; no direct reply required",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "apply_label",
+          "label": "@System_Alert"
+        },
+        {
+          "action": "create_user_task"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "alert",
+        "infrastructure",
+        "engineering",
+        "automated"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

@@ -1,0 +1,72 @@
+name: 🐛 Bug Report
+description: Report a reproducible issue or unexpected behavior in Email Organizer
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please ensure you do not paste sensitive personal emails, API keys, or tokens in your report.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      description: Which part of Email Organizer is experiencing the problem?
+      options:
+        - LangGraph Pipeline & State Machine
+        - Safety & Deterministic Rules (Layer 1 / VIP / Keywords)
+        - LLM Triage & Gemini Integration (Layer 2)
+        - Gmail / Google Calendar Service
+        - FastAPI Server & REST Endpoints
+        - MCP Server (Model Context Protocol)
+        - PM Task Adapters (Jira / SQLite)
+        - CLI / Poll Worker Scripts
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug and what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Run '...'
+        2. Send email with subject '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment & Versions
+      description: Operating System, Python version, and LLM model used.
+      placeholder: "Windows 11 / Python 3.11 / gemini-2.0-flash"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs or Tracebacks
+      description: Please sanitize any personal email addresses, OAuth tokens, or API keys before pasting.
+      render: shell

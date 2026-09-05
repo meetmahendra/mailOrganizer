@@ -1,0 +1,2902 @@
+[
+  {
+    "id": "TEST-LEG-001",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#1)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_001",
+      "thread_id": "mock_thd_leg_001",
+      "message_id_header": "<20260831.legal.001@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0001",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0001",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-002",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#2)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_002",
+      "thread_id": "mock_thd_leg_002",
+      "message_id_header": "<20260831.legal.002@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0002",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0002",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-003",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#3)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_003",
+      "thread_id": "mock_thd_leg_003",
+      "message_id_header": "<20260831.legal.003@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0003",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0003",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-004",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#4)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_004",
+      "thread_id": "mock_thd_leg_004",
+      "message_id_header": "<20260831.legal.004@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0004",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0004",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-005",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#5)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_005",
+      "thread_id": "mock_thd_leg_005",
+      "message_id_header": "<20260831.legal.005@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0005",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0005",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-006",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#6)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_006",
+      "thread_id": "mock_thd_leg_006",
+      "message_id_header": "<20260831.legal.006@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0006",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0006",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-007",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#7)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_007",
+      "thread_id": "mock_thd_leg_007",
+      "message_id_header": "<20260831.legal.007@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0007",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0007",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-008",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#8)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_008",
+      "thread_id": "mock_thd_leg_008",
+      "message_id_header": "<20260831.legal.008@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0008",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0008",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-009",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#9)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_009",
+      "thread_id": "mock_thd_leg_009",
+      "message_id_header": "<20260831.legal.009@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0009",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0009",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-010",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#10)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_010",
+      "thread_id": "mock_thd_leg_010",
+      "message_id_header": "<20260831.legal.010@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0010",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0010",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-011",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#11)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_011",
+      "thread_id": "mock_thd_leg_011",
+      "message_id_header": "<20260831.legal.011@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0011",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0011",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-012",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#12)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_012",
+      "thread_id": "mock_thd_leg_012",
+      "message_id_header": "<20260831.legal.012@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0012",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0012",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-013",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#13)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_013",
+      "thread_id": "mock_thd_leg_013",
+      "message_id_header": "<20260831.legal.013@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0013",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0013",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-014",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#14)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_014",
+      "thread_id": "mock_thd_leg_014",
+      "message_id_header": "<20260831.legal.014@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0014",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0014",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-015",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#15)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_015",
+      "thread_id": "mock_thd_leg_015",
+      "message_id_header": "<20260831.legal.015@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0015",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0015",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-016",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#16)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_016",
+      "thread_id": "mock_thd_leg_016",
+      "message_id_header": "<20260831.legal.016@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0016",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0016",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-017",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#17)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_017",
+      "thread_id": "mock_thd_leg_017",
+      "message_id_header": "<20260831.legal.017@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0017",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0017",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-018",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#18)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_018",
+      "thread_id": "mock_thd_leg_018",
+      "message_id_header": "<20260831.legal.018@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0018",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0018",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-019",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#19)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_019",
+      "thread_id": "mock_thd_leg_019",
+      "message_id_header": "<20260831.legal.019@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0019",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0019",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-020",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#20)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_020",
+      "thread_id": "mock_thd_leg_020",
+      "message_id_header": "<20260831.legal.020@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0020",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0020",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-021",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#21)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_021",
+      "thread_id": "mock_thd_leg_021",
+      "message_id_header": "<20260831.legal.021@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0021",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0021",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-022",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#22)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_022",
+      "thread_id": "mock_thd_leg_022",
+      "message_id_header": "<20260831.legal.022@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0022",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0022",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-023",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#23)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_023",
+      "thread_id": "mock_thd_leg_023",
+      "message_id_header": "<20260831.legal.023@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0023",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0023",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-024",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#24)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_024",
+      "thread_id": "mock_thd_leg_024",
+      "message_id_header": "<20260831.legal.024@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0024",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0024",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-025",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#25)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_025",
+      "thread_id": "mock_thd_leg_025",
+      "message_id_header": "<20260831.legal.025@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0025",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0025",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-026",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#26)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_026",
+      "thread_id": "mock_thd_leg_026",
+      "message_id_header": "<20260831.legal.026@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0026",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0026",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-027",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#27)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_027",
+      "thread_id": "mock_thd_leg_027",
+      "message_id_header": "<20260831.legal.027@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0027",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0027",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-028",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#28)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_028",
+      "thread_id": "mock_thd_leg_028",
+      "message_id_header": "<20260831.legal.028@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0028",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0028",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-029",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#29)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_029",
+      "thread_id": "mock_thd_leg_029",
+      "message_id_header": "<20260831.legal.029@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0029",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0029",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-030",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#30)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_030",
+      "thread_id": "mock_thd_leg_030",
+      "message_id_header": "<20260831.legal.030@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0030",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0030",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-031",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#31)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_031",
+      "thread_id": "mock_thd_leg_031",
+      "message_id_header": "<20260831.legal.031@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0031",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0031",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-032",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#32)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_032",
+      "thread_id": "mock_thd_leg_032",
+      "message_id_header": "<20260831.legal.032@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0032",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0032",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-033",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#33)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_033",
+      "thread_id": "mock_thd_leg_033",
+      "message_id_header": "<20260831.legal.033@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0033",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0033",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-034",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#34)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_034",
+      "thread_id": "mock_thd_leg_034",
+      "message_id_header": "<20260831.legal.034@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0034",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0034",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-035",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#35)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_035",
+      "thread_id": "mock_thd_leg_035",
+      "message_id_header": "<20260831.legal.035@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0035",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0035",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-036",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#36)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_036",
+      "thread_id": "mock_thd_leg_036",
+      "message_id_header": "<20260831.legal.036@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0036",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0036",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-037",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#37)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_037",
+      "thread_id": "mock_thd_leg_037",
+      "message_id_header": "<20260831.legal.037@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0037",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0037",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-038",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#38)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_038",
+      "thread_id": "mock_thd_leg_038",
+      "message_id_header": "<20260831.legal.038@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0038",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0038",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-039",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#39)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_039",
+      "thread_id": "mock_thd_leg_039",
+      "message_id_header": "<20260831.legal.039@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0039",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0039",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-040",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#40)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_040",
+      "thread_id": "mock_thd_leg_040",
+      "message_id_header": "<20260831.legal.040@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0040",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0040",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-041",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#41)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_041",
+      "thread_id": "mock_thd_leg_041",
+      "message_id_header": "<20260831.legal.041@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0041",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0041",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-042",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#42)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_042",
+      "thread_id": "mock_thd_leg_042",
+      "message_id_header": "<20260831.legal.042@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0042",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0042",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-043",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#43)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_043",
+      "thread_id": "mock_thd_leg_043",
+      "message_id_header": "<20260831.legal.043@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0043",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0043",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-044",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#44)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_044",
+      "thread_id": "mock_thd_leg_044",
+      "message_id_header": "<20260831.legal.044@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0044",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0044",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-045",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#45)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_045",
+      "thread_id": "mock_thd_leg_045",
+      "message_id_header": "<20260831.legal.045@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0045",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0045",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-046",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "GDPR Article 17 Data Erasure Request (#46)",
+    "description": "Legal and regulatory compliance notice: Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+    "email": {
+      "gmail_id": "mock_leg_046",
+      "thread_id": "mock_thd_leg_046",
+      "message_id_header": "<20260831.legal.046@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0046",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] GDPR Article 17 Data Erasure Request - Case Ref #0046",
+      "snippet": "Formal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.",
+      "body": "Hi Team,\n\nFormal data subject erasure request received for user ID #EU-881920. 30-day statutory response clock active.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-047",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "SOC 2 Type II Audit Evidence Request (#47)",
+    "description": "Legal and regulatory compliance notice: Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+    "email": {
+      "gmail_id": "mock_leg_047",
+      "thread_id": "mock_thd_leg_047",
+      "message_id_header": "<20260831.legal.047@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0047",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] SOC 2 Type II Audit Evidence Request - Case Ref #0047",
+      "snippet": "Ernst & Young audit team requires access logs and encrypted backup verification for Q3.",
+      "body": "Hi Team,\n\nErnst & Young audit team requires access logs and encrypted backup verification for Q3.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-048",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Fortune 500 Enterprise MSA Redline Review (#48)",
+    "description": "Legal and regulatory compliance notice: Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+    "email": {
+      "gmail_id": "mock_leg_048",
+      "thread_id": "mock_thd_leg_048",
+      "message_id_header": "<20260831.legal.048@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0048",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Fortune 500 Enterprise MSA Redline Review - Case Ref #0048",
+      "snippet": "Customer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.",
+      "body": "Hi Team,\n\nCustomer legal counsel has redlined Clause 11 (Indemnity) and Clause 14 (Liability Cap) on $1.2M contract.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-049",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Trademark Infringement Notice (#49)",
+    "description": "Legal and regulatory compliance notice: Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+    "email": {
+      "gmail_id": "mock_leg_049",
+      "thread_id": "mock_thd_leg_049",
+      "message_id_header": "<20260831.legal.049@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0049",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Trademark Infringement Notice - Case Ref #0049",
+      "snippet": "Notice regarding potential unauthorized usage of brand asset on third-party marketing portal.",
+      "body": "Hi Team,\n\nNotice regarding potential unauthorized usage of brand asset on third-party marketing portal.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Legal compliance inquiry requiring formal review",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-LEG-050",
+    "suite": "legal_compliance",
+    "domain": "Legal, Risk & Regulatory Compliance",
+    "title": "Annual Compliance Policy Acknowledgment (#50)",
+    "description": "Legal and regulatory compliance notice: All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+    "email": {
+      "gmail_id": "mock_leg_050",
+      "thread_id": "mock_thd_leg_050",
+      "message_id_header": "<20260831.legal.050@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 11:00:00 -0700",
+        "From": "Rachel Adams <rachel.adams@yourcompany.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0050",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Rachel Adams <rachel.adams@yourcompany.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[LEGAL & COMPLIANCE] Annual Compliance Policy Acknowledgment - Case Ref #0050",
+      "snippet": "All employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.",
+      "body": "Hi Team,\n\nAll employees are required to review the updated 2026 Code of Conduct and Anti-Bribery policy.\n\nPlease coordinate with legal counsel to provide the necessary materials or schedule a review.\n\nBest regards,\n\nRachel Adams\nGeneral Counsel & VP of Legal\nTechGlobal Cloud Solutions\nDirect: +1 (415) 555-0105 | rachel.adams@yourcompany.com\n\n---\nPrivileged & Confidential Legal Communication.",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        3,
+        5
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Informational compliance notice",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "legal",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

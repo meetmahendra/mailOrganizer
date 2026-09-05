@@ -1,0 +1,5 @@
+# MCP Server dependencies (install in addition to app/requirements.txt)
+mcp[cli]>=1.0.0
+anyio>=4.0.0
+starlette
+uvicorn[standard]

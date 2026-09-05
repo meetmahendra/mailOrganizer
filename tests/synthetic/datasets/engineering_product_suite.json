@@ -1,0 +1,2452 @@
+[
+  {
+    "id": "TEST-ENG-001",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#1)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_001",
+      "thread_id": "mock_thd_eng_001",
+      "message_id_header": "<20260831.eng.001@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #1] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #1] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-1\nPR Link: https://github.com/yourcompany/core-payments/pull/1001\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-002",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#2)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_002",
+      "thread_id": "mock_thd_eng_002",
+      "message_id_header": "<20260831.eng.002@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #2] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #2] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-2\nPR Link: https://github.com/yourcompany/core-payments/pull/1002\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-003",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#3)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_003",
+      "thread_id": "mock_thd_eng_003",
+      "message_id_header": "<20260831.eng.003@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #3] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #3] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-3\nPR Link: https://github.com/yourcompany/core-payments/pull/1003\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-004",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#4)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_004",
+      "thread_id": "mock_thd_eng_004",
+      "message_id_header": "<20260831.eng.004@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #4] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #4] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-4\nPR Link: https://github.com/yourcompany/core-payments/pull/1004\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-005",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#5)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_005",
+      "thread_id": "mock_thd_eng_005",
+      "message_id_header": "<20260831.eng.005@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #5] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #5] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-5\nPR Link: https://github.com/yourcompany/core-payments/pull/1005\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-006",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#6)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_006",
+      "thread_id": "mock_thd_eng_006",
+      "message_id_header": "<20260831.eng.006@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #6] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #6] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-6\nPR Link: https://github.com/yourcompany/core-payments/pull/1006\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-007",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#7)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_007",
+      "thread_id": "mock_thd_eng_007",
+      "message_id_header": "<20260831.eng.007@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #7] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #7] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-7\nPR Link: https://github.com/yourcompany/core-payments/pull/1007\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-008",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#8)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_008",
+      "thread_id": "mock_thd_eng_008",
+      "message_id_header": "<20260831.eng.008@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #8] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #8] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-8\nPR Link: https://github.com/yourcompany/core-payments/pull/1008\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-009",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#9)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_009",
+      "thread_id": "mock_thd_eng_009",
+      "message_id_header": "<20260831.eng.009@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #9] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #9] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-9\nPR Link: https://github.com/yourcompany/core-payments/pull/1009\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-010",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#10)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_010",
+      "thread_id": "mock_thd_eng_010",
+      "message_id_header": "<20260831.eng.010@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #10] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #10] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-10\nPR Link: https://github.com/yourcompany/core-payments/pull/1010\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-011",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#11)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_011",
+      "thread_id": "mock_thd_eng_011",
+      "message_id_header": "<20260831.eng.011@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #11] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #11] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-11\nPR Link: https://github.com/yourcompany/core-payments/pull/1011\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-012",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#12)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_012",
+      "thread_id": "mock_thd_eng_012",
+      "message_id_header": "<20260831.eng.012@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #12] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #12] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-12\nPR Link: https://github.com/yourcompany/core-payments/pull/1012\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-013",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#13)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_013",
+      "thread_id": "mock_thd_eng_013",
+      "message_id_header": "<20260831.eng.013@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #13] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #13] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-13\nPR Link: https://github.com/yourcompany/core-payments/pull/1013\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-014",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#14)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_014",
+      "thread_id": "mock_thd_eng_014",
+      "message_id_header": "<20260831.eng.014@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #14] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #14] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-14\nPR Link: https://github.com/yourcompany/core-payments/pull/1014\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-015",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#15)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_015",
+      "thread_id": "mock_thd_eng_015",
+      "message_id_header": "<20260831.eng.015@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #15] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #15] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-15\nPR Link: https://github.com/yourcompany/core-payments/pull/1015\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-016",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#16)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_016",
+      "thread_id": "mock_thd_eng_016",
+      "message_id_header": "<20260831.eng.016@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #16] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #16] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-16\nPR Link: https://github.com/yourcompany/core-payments/pull/1016\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-017",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#17)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_017",
+      "thread_id": "mock_thd_eng_017",
+      "message_id_header": "<20260831.eng.017@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #17] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #17] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-17\nPR Link: https://github.com/yourcompany/core-payments/pull/1017\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-018",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#18)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_018",
+      "thread_id": "mock_thd_eng_018",
+      "message_id_header": "<20260831.eng.018@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #18] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #18] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-18\nPR Link: https://github.com/yourcompany/core-payments/pull/1018\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-019",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#19)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_019",
+      "thread_id": "mock_thd_eng_019",
+      "message_id_header": "<20260831.eng.019@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #19] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #19] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-19\nPR Link: https://github.com/yourcompany/core-payments/pull/1019\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-020",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#20)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_020",
+      "thread_id": "mock_thd_eng_020",
+      "message_id_header": "<20260831.eng.020@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #20] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #20] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-20\nPR Link: https://github.com/yourcompany/core-payments/pull/1020\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-021",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#21)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_021",
+      "thread_id": "mock_thd_eng_021",
+      "message_id_header": "<20260831.eng.021@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #21] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #21] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-21\nPR Link: https://github.com/yourcompany/core-payments/pull/1021\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-022",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#22)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_022",
+      "thread_id": "mock_thd_eng_022",
+      "message_id_header": "<20260831.eng.022@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #22] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #22] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-22\nPR Link: https://github.com/yourcompany/core-payments/pull/1022\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-023",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#23)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_023",
+      "thread_id": "mock_thd_eng_023",
+      "message_id_header": "<20260831.eng.023@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #23] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #23] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-23\nPR Link: https://github.com/yourcompany/core-payments/pull/1023\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-024",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#24)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_024",
+      "thread_id": "mock_thd_eng_024",
+      "message_id_header": "<20260831.eng.024@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #24] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #24] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-24\nPR Link: https://github.com/yourcompany/core-payments/pull/1024\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-025",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#25)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_025",
+      "thread_id": "mock_thd_eng_025",
+      "message_id_header": "<20260831.eng.025@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #25] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #25] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-25\nPR Link: https://github.com/yourcompany/core-payments/pull/1025\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-026",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#26)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_026",
+      "thread_id": "mock_thd_eng_026",
+      "message_id_header": "<20260831.eng.026@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #26] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #26] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-26\nPR Link: https://github.com/yourcompany/core-payments/pull/1026\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-027",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#27)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_027",
+      "thread_id": "mock_thd_eng_027",
+      "message_id_header": "<20260831.eng.027@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #27] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #27] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-27\nPR Link: https://github.com/yourcompany/core-payments/pull/1027\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-028",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#28)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_028",
+      "thread_id": "mock_thd_eng_028",
+      "message_id_header": "<20260831.eng.028@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #28] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #28] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-28\nPR Link: https://github.com/yourcompany/core-payments/pull/1028\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-029",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#29)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_029",
+      "thread_id": "mock_thd_eng_029",
+      "message_id_header": "<20260831.eng.029@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #29] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #29] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-29\nPR Link: https://github.com/yourcompany/core-payments/pull/1029\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-030",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#30)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_030",
+      "thread_id": "mock_thd_eng_030",
+      "message_id_header": "<20260831.eng.030@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #30] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #30] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-30\nPR Link: https://github.com/yourcompany/core-payments/pull/1030\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-031",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#31)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_031",
+      "thread_id": "mock_thd_eng_031",
+      "message_id_header": "<20260831.eng.031@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #31] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #31] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-31\nPR Link: https://github.com/yourcompany/core-payments/pull/1031\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-032",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#32)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_032",
+      "thread_id": "mock_thd_eng_032",
+      "message_id_header": "<20260831.eng.032@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #32] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #32] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-32\nPR Link: https://github.com/yourcompany/core-payments/pull/1032\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-033",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#33)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_033",
+      "thread_id": "mock_thd_eng_033",
+      "message_id_header": "<20260831.eng.033@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #33] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #33] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-33\nPR Link: https://github.com/yourcompany/core-payments/pull/1033\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-034",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#34)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_034",
+      "thread_id": "mock_thd_eng_034",
+      "message_id_header": "<20260831.eng.034@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #34] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #34] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-34\nPR Link: https://github.com/yourcompany/core-payments/pull/1034\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-035",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#35)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_035",
+      "thread_id": "mock_thd_eng_035",
+      "message_id_header": "<20260831.eng.035@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #35] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #35] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-35\nPR Link: https://github.com/yourcompany/core-payments/pull/1035\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-036",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#36)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_036",
+      "thread_id": "mock_thd_eng_036",
+      "message_id_header": "<20260831.eng.036@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #36] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #36] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-36\nPR Link: https://github.com/yourcompany/core-payments/pull/1036\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-037",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#37)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_037",
+      "thread_id": "mock_thd_eng_037",
+      "message_id_header": "<20260831.eng.037@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #37] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #37] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-37\nPR Link: https://github.com/yourcompany/core-payments/pull/1037\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-038",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#38)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_038",
+      "thread_id": "mock_thd_eng_038",
+      "message_id_header": "<20260831.eng.038@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #38] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #38] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-38\nPR Link: https://github.com/yourcompany/core-payments/pull/1038\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-039",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#39)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_039",
+      "thread_id": "mock_thd_eng_039",
+      "message_id_header": "<20260831.eng.039@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #39] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #39] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-39\nPR Link: https://github.com/yourcompany/core-payments/pull/1039\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-040",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#40)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_040",
+      "thread_id": "mock_thd_eng_040",
+      "message_id_header": "<20260831.eng.040@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #40] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #40] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-40\nPR Link: https://github.com/yourcompany/core-payments/pull/1040\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-041",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#41)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_041",
+      "thread_id": "mock_thd_eng_041",
+      "message_id_header": "<20260831.eng.041@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #41] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #41] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-41\nPR Link: https://github.com/yourcompany/core-payments/pull/1041\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-042",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#42)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_042",
+      "thread_id": "mock_thd_eng_042",
+      "message_id_header": "<20260831.eng.042@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #42] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #42] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-42\nPR Link: https://github.com/yourcompany/core-payments/pull/1042\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-043",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#43)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_043",
+      "thread_id": "mock_thd_eng_043",
+      "message_id_header": "<20260831.eng.043@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #43] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #43] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-43\nPR Link: https://github.com/yourcompany/core-payments/pull/1043\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-044",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#44)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_044",
+      "thread_id": "mock_thd_eng_044",
+      "message_id_header": "<20260831.eng.044@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #44] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #44] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-44\nPR Link: https://github.com/yourcompany/core-payments/pull/1044\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-045",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#45)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_045",
+      "thread_id": "mock_thd_eng_045",
+      "message_id_header": "<20260831.eng.045@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #45] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #45] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-45\nPR Link: https://github.com/yourcompany/core-payments/pull/1045\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-046",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Release-Critical PR Blocker on Core Billing (#46)",
+    "description": "Engineering workflow: PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+    "email": {
+      "gmail_id": "mock_eng_046",
+      "thread_id": "mock_thd_eng_046",
+      "message_id_header": "<20260831.eng.046@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #46] Release-Critical PR Blocker on Core Billing",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #46] Release-Critical PR Blocker on Core Billing",
+      "snippet": "PR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.",
+      "body": "Hi Arjun,\n\nPR #1042 has failing integration tests blocking the v2.4.0 hotfix release branch. Need review from Arjun.\n\nBranch: fix/billing-race-condition-46\nPR Link: https://github.com/yourcompany/core-payments/pull/1046\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-047",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Architecture RFC (ADR-042) Review (#47)",
+    "description": "Engineering workflow: RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+    "email": {
+      "gmail_id": "mock_eng_047",
+      "thread_id": "mock_thd_eng_047",
+      "message_id_header": "<20260831.eng.047@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #47] Architecture RFC (ADR-042) Review",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #47] Architecture RFC (ADR-042) Review",
+      "snippet": "RFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.",
+      "body": "Hi Arjun,\n\nRFC for asynchronous Kafka event streaming architecture is ready for team review and sign-off.\n\nBranch: fix/billing-race-condition-47\nPR Link: https://github.com/yourcompany/core-payments/pull/1047\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-048",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Sprint Backlog Grooming & Task Allocation (#48)",
+    "description": "Engineering workflow: Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+    "email": {
+      "gmail_id": "mock_eng_048",
+      "thread_id": "mock_thd_eng_048",
+      "message_id_header": "<20260831.eng.048@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #48] Sprint Backlog Grooming & Task Allocation",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #48] Sprint Backlog Grooming & Task Allocation",
+      "snippet": "Please review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.",
+      "body": "Hi Arjun,\n\nPlease review and estimate your assigned Jira tickets for Sprint 48 before tomorrow's 10 AM standup.\n\nBranch: fix/billing-race-condition-48\nPR Link: https://github.com/yourcompany/core-payments/pull/1048\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-ENG-049",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "CI/CD Pipeline Build Report (#49)",
+    "description": "Engineering workflow: Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+    "email": {
+      "gmail_id": "mock_eng_049",
+      "thread_id": "mock_thd_eng_049",
+      "message_id_header": "<20260831.eng.049@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #49] CI/CD Pipeline Build Report",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #49] CI/CD Pipeline Build Report",
+      "snippet": "Build #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.",
+      "body": "Hi Arjun,\n\nBuild #88219 for branch 'main' succeeded in 4m 12s. 1,420 unit tests passed, 0 failures.\n\nBranch: fix/billing-race-condition-49\nPR Link: https://github.com/yourcompany/core-payments/pull/1049\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Informational/Logs",
+      "acceptable_categories": [
+        "Informational/Logs"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated CI/CD build status log",
+      "is_no_reply": true,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-ENG-050",
+    "suite": "engineering_product",
+    "domain": "Engineering, Architecture & Product Management",
+    "title": "Bug Bounty Security Disclosure (HackerOne) (#50)",
+    "description": "Engineering workflow: Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+    "email": {
+      "gmail_id": "mock_eng_050",
+      "thread_id": "mock_thd_eng_050",
+      "message_id_header": "<20260831.eng.050@yourcompany.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 14:00:00 -0700",
+        "From": "Lucas Silva <lucas.silva@yourcompany.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Subject": "[ENG #50] Bug Bounty Security Disclosure (HackerOne)",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Lucas Silva <lucas.silva@yourcompany.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "[ENG #50] Bug Bounty Security Disclosure (HackerOne)",
+      "snippet": "Security researcher reported SSRF vulnerability in webhook callback validation logic.",
+      "body": "Hi Arjun,\n\nSecurity researcher reported SSRF vulnerability in webhook callback validation logic.\n\nBranch: fix/billing-race-condition-50\nPR Link: https://github.com/yourcompany/core-payments/pull/1050\n\nLet me know when you have had a chance to take a look.\n\nBest,\nLucas Silva\nSenior Backend Engineer\nTechGlobal Cloud Solutions",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Engineering collaboration and code review request",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": true,
+      "required_actions": [],
+      "forbidden_actions": [],
+      "expected_tags_contains": [
+        "engineering",
+        "update"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  }
+]

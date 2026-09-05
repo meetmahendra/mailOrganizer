@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+# ============================================================
+# Git Pre-Push Hook — Email Organizer Quality Gate
+# Automatically validates all 550 benchmark tests, VIP safety rules,
+# and deterministic routing before allowing push to remote.
+# ============================================================
+
+echo "⚡ [pre-push] Running Email Organizer Synthetic Quality Gate..."
+
+python run_tests.py --mode=rules --suite=all --quality-gate
+
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+  echo ""
+  echo "❌ [pre-push] Push rejected! Synthetic Quality Gate or Safety Rules failed."
+  echo "👉 Open reports/report.html to view the failure diagnostics."
+  exit 1
+fi
+
+echo "✅ [pre-push] Quality Gate passed! Proceeding with git push."
+exit 0

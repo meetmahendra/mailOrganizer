@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "TEST-MKT-001",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#1)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_001",
+      "thread_id": "mock_thd_mkt_001",
+      "message_id_header": "<20260831.mktg.001@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-1@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #1] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-1@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #1] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=1\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-002",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#2)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_002",
+      "thread_id": "mock_thd_mkt_002",
+      "message_id_header": "<20260831.mktg.002@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-2@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #2] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-2@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #2] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=2\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-003",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#3)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_003",
+      "thread_id": "mock_thd_mkt_003",
+      "message_id_header": "<20260831.mktg.003@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-3@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #3] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-3@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #3] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=3\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-004",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#4)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_004",
+      "thread_id": "mock_thd_mkt_004",
+      "message_id_header": "<20260831.mktg.004@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-4@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #4] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-4@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #4] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=4\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-005",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#5)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_005",
+      "thread_id": "mock_thd_mkt_005",
+      "message_id_header": "<20260831.mktg.005@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-5@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #5] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-5@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #5] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=5\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-006",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#6)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_006",
+      "thread_id": "mock_thd_mkt_006",
+      "message_id_header": "<20260831.mktg.006@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-6@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #6] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-6@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #6] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=6\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-007",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#7)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_007",
+      "thread_id": "mock_thd_mkt_007",
+      "message_id_header": "<20260831.mktg.007@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-7@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #7] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-7@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #7] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=7\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-008",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#8)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_008",
+      "thread_id": "mock_thd_mkt_008",
+      "message_id_header": "<20260831.mktg.008@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-8@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #8] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-8@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #8] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=8\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-009",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#9)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_009",
+      "thread_id": "mock_thd_mkt_009",
+      "message_id_header": "<20260831.mktg.009@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-9@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #9] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-9@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #9] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=9\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-010",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#10)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_010",
+      "thread_id": "mock_thd_mkt_010",
+      "message_id_header": "<20260831.mktg.010@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-10@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #10] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-10@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #10] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=10\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-011",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#11)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_011",
+      "thread_id": "mock_thd_mkt_011",
+      "message_id_header": "<20260831.mktg.011@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-11@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #11] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-11@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #11] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=11\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-012",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#12)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_012",
+      "thread_id": "mock_thd_mkt_012",
+      "message_id_header": "<20260831.mktg.012@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-12@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #12] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-12@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #12] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=12\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-013",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#13)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_013",
+      "thread_id": "mock_thd_mkt_013",
+      "message_id_header": "<20260831.mktg.013@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-13@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #13] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-13@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #13] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=13\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-014",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#14)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_014",
+      "thread_id": "mock_thd_mkt_014",
+      "message_id_header": "<20260831.mktg.014@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-14@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #14] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-14@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #14] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=14\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-015",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#15)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_015",
+      "thread_id": "mock_thd_mkt_015",
+      "message_id_header": "<20260831.mktg.015@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-15@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #15] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-15@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #15] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=15\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-016",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#16)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_016",
+      "thread_id": "mock_thd_mkt_016",
+      "message_id_header": "<20260831.mktg.016@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-16@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #16] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-16@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #16] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=16\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-017",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#17)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_017",
+      "thread_id": "mock_thd_mkt_017",
+      "message_id_header": "<20260831.mktg.017@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-17@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #17] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-17@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #17] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=17\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-018",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#18)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_018",
+      "thread_id": "mock_thd_mkt_018",
+      "message_id_header": "<20260831.mktg.018@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-18@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #18] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-18@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #18] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=18\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-019",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#19)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_019",
+      "thread_id": "mock_thd_mkt_019",
+      "message_id_header": "<20260831.mktg.019@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-19@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #19] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-19@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #19] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=19\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-020",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#20)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_020",
+      "thread_id": "mock_thd_mkt_020",
+      "message_id_header": "<20260831.mktg.020@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-20@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #20] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-20@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #20] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=20\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-021",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#21)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_021",
+      "thread_id": "mock_thd_mkt_021",
+      "message_id_header": "<20260831.mktg.021@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-21@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #21] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-21@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #21] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=21\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-022",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#22)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_022",
+      "thread_id": "mock_thd_mkt_022",
+      "message_id_header": "<20260831.mktg.022@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-22@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #22] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-22@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #22] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=22\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-023",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#23)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_023",
+      "thread_id": "mock_thd_mkt_023",
+      "message_id_header": "<20260831.mktg.023@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-23@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #23] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-23@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #23] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=23\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-024",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#24)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_024",
+      "thread_id": "mock_thd_mkt_024",
+      "message_id_header": "<20260831.mktg.024@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-24@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #24] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-24@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #24] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=24\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-025",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#25)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_025",
+      "thread_id": "mock_thd_mkt_025",
+      "message_id_header": "<20260831.mktg.025@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-25@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #25] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-25@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #25] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=25\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-026",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#26)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_026",
+      "thread_id": "mock_thd_mkt_026",
+      "message_id_header": "<20260831.mktg.026@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-26@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #26] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-26@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #26] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=26\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-027",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#27)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_027",
+      "thread_id": "mock_thd_mkt_027",
+      "message_id_header": "<20260831.mktg.027@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-27@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #27] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-27@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #27] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=27\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-028",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#28)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_028",
+      "thread_id": "mock_thd_mkt_028",
+      "message_id_header": "<20260831.mktg.028@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-28@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #28] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-28@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #28] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=28\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-029",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#29)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_029",
+      "thread_id": "mock_thd_mkt_029",
+      "message_id_header": "<20260831.mktg.029@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-29@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #29] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-29@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #29] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=29\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-030",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#30)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_030",
+      "thread_id": "mock_thd_mkt_030",
+      "message_id_header": "<20260831.mktg.030@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-30@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #30] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-30@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #30] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=30\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-031",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#31)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_031",
+      "thread_id": "mock_thd_mkt_031",
+      "message_id_header": "<20260831.mktg.031@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-31@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #31] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-31@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #31] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=31\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-032",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#32)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_032",
+      "thread_id": "mock_thd_mkt_032",
+      "message_id_header": "<20260831.mktg.032@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-32@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #32] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-32@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #32] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=32\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-033",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#33)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_033",
+      "thread_id": "mock_thd_mkt_033",
+      "message_id_header": "<20260831.mktg.033@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-33@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #33] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-33@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #33] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=33\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-034",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#34)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_034",
+      "thread_id": "mock_thd_mkt_034",
+      "message_id_header": "<20260831.mktg.034@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-34@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #34] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-34@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #34] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=34\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-035",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#35)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_035",
+      "thread_id": "mock_thd_mkt_035",
+      "message_id_header": "<20260831.mktg.035@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-35@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #35] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-35@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #35] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=35\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-036",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#36)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_036",
+      "thread_id": "mock_thd_mkt_036",
+      "message_id_header": "<20260831.mktg.036@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-36@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #36] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-36@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #36] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=36\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-037",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#37)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_037",
+      "thread_id": "mock_thd_mkt_037",
+      "message_id_header": "<20260831.mktg.037@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-37@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #37] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-37@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #37] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=37\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-038",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#38)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_038",
+      "thread_id": "mock_thd_mkt_038",
+      "message_id_header": "<20260831.mktg.038@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-38@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #38] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-38@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #38] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=38\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-039",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#39)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_039",
+      "thread_id": "mock_thd_mkt_039",
+      "message_id_header": "<20260831.mktg.039@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-39@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #39] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-39@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #39] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=39\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-040",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#40)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_040",
+      "thread_id": "mock_thd_mkt_040",
+      "message_id_header": "<20260831.mktg.040@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-40@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #40] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-40@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #40] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=40\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-041",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#41)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_041",
+      "thread_id": "mock_thd_mkt_041",
+      "message_id_header": "<20260831.mktg.041@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-41@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #41] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-41@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #41] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=41\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-042",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#42)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_042",
+      "thread_id": "mock_thd_mkt_042",
+      "message_id_header": "<20260831.mktg.042@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-42@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #42] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-42@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #42] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=42\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-043",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#43)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_043",
+      "thread_id": "mock_thd_mkt_043",
+      "message_id_header": "<20260831.mktg.043@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-43@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #43] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-43@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #43] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=43\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-044",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#44)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_044",
+      "thread_id": "mock_thd_mkt_044",
+      "message_id_header": "<20260831.mktg.044@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-44@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #44] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-44@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #44] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=44\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-045",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#45)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_045",
+      "thread_id": "mock_thd_mkt_045",
+      "message_id_header": "<20260831.mktg.045@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-45@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #45] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-45@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #45] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=45\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-046",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Gartner Magic Quadrant Cloud Report Download (#46)",
+    "description": "Promotional marketing campaign: Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+    "email": {
+      "gmail_id": "mock_mkt_046",
+      "thread_id": "mock_thd_mkt_046",
+      "message_id_header": "<20260831.mktg.046@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-46@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #46] Gartner Magic Quadrant Cloud Report Download",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-46@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #46] Gartner Magic Quadrant Cloud Report Download",
+      "snippet": "Download the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.",
+      "body": "Hello Marcus,\n\nDownload the complimentary 2026 Gartner Magic Quadrant report for Cloud Database Platforms.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=46\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-047",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Amazon Business Daily Deals Newsletter (#47)",
+    "description": "Promotional marketing campaign: Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+    "email": {
+      "gmail_id": "mock_mkt_047",
+      "thread_id": "mock_thd_mkt_047",
+      "message_id_header": "<20260831.mktg.047@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-47@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #47] Amazon Business Daily Deals Newsletter",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-47@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #47] Amazon Business Daily Deals Newsletter",
+      "snippet": "Save up to 40% on standing desks, 4K monitors, and office supplies today only.",
+      "body": "Hello Marcus,\n\nSave up to 40% on standing desks, 4K monitors, and office supplies today only.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=47\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-048",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "B2B SaaS Virtual Summit Registration (#48)",
+    "description": "Promotional marketing campaign: Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+    "email": {
+      "gmail_id": "mock_mkt_048",
+      "thread_id": "mock_thd_mkt_048",
+      "message_id_header": "<20260831.mktg.048@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-48@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #48] B2B SaaS Virtual Summit Registration",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-48@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #48] B2B SaaS Virtual Summit Registration",
+      "snippet": "Join 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.",
+      "body": "Hello Marcus,\n\nJoin 10,000+ engineering leaders at the Global SaaS Cloud Summit. Free virtual passes available.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=48\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        3
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-049",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Coursera Enterprise Upskilling Special Offer (#49)",
+    "description": "Promotional marketing campaign: Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+    "email": {
+      "gmail_id": "mock_mkt_049",
+      "thread_id": "mock_thd_mkt_049",
+      "message_id_header": "<20260831.mktg.049@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-49@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #49] Coursera Enterprise Upskilling Special Offer",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-49@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #49] Coursera Enterprise Upskilling Special Offer",
+      "snippet": "Upskill your engineering team with Generative AI and Kubernetes certifications at 30% off.",
+      "body": "Hello Marcus,\n\nUpskill your engineering team with Generative AI and Kubernetes certifications at 30% off.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=49\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-MKT-050",
+    "suite": "promotions_marketing",
+    "domain": "Marketing, E-Commerce & Promotions",
+    "title": "Product Hunt Daily Digest (#50)",
+    "description": "Promotional marketing campaign: Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+    "email": {
+      "gmail_id": "mock_mkt_050",
+      "thread_id": "mock_thd_mkt_050",
+      "message_id_header": "<20260831.mktg.050@promo-news.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 17:00:00 -0400",
+        "From": "Tech Industry Insights <newsletter-50@industry-insights.com>",
+        "To": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "[SPECIAL OFFER #50] Product Hunt Daily Digest",
+        "X-Priority": "5",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Tech Industry Insights <newsletter-50@industry-insights.com>",
+      "to": "Marcus Vance <marcus.vance@yourcompany.com>",
+      "subject": "[SPECIAL OFFER #50] Product Hunt Daily Digest",
+      "snippet": "Top tech launches today: AI code refactor tools, vector databases, and developer productivity suites.",
+      "body": "Hello Marcus,\n\nTop tech launches today: AI code refactor tools, vector databases, and developer productivity suites.\n\nClick here to claim your offer: https://offers.industry-insights.com/claim?id=50\n\nTo unsubscribe from marketing updates, click here: https://offers.industry-insights.com/unsub",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Promotions/Marketing",
+      "acceptable_categories": [
+        "Promotions/Marketing"
+      ],
+      "urgency_score_range": [
+        1,
+        2
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Promotional newsletter / marketing campaign; no reply needed",
+      "is_no_reply": false,
+      "is_vip": false,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive",
+          "label": "_LLM/Promotions"
+        },
+        {
+          "action": "mark_as_read"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "keep_inbox"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "expected_tags_contains": [
+        "marketing",
+        "announcement",
+        "newsletter"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]

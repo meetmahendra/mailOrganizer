@@ -1,0 +1,4302 @@
+[
+  {
+    "id": "TEST-THD-001",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#1)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_001",
+      "thread_id": "mock_thd_chain_001",
+      "message_id_header": "<20260831.chain.001@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #1",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #1",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #1."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-002",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#2)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_002",
+      "thread_id": "mock_thd_chain_002",
+      "message_id_header": "<20260831.chain.002@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #2",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #2",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #2."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-003",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#3)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_003",
+      "thread_id": "mock_thd_chain_003",
+      "message_id_header": "<20260831.chain.003@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #3",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #3",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #3."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-004",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#4)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_004",
+      "thread_id": "mock_thd_chain_004",
+      "message_id_header": "<20260831.chain.004@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #4",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #4",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #4."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-005",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#5)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_005",
+      "thread_id": "mock_thd_chain_005",
+      "message_id_header": "<20260831.chain.005@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #5",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #5",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #5."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-006",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#6)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_006",
+      "thread_id": "mock_thd_chain_006",
+      "message_id_header": "<20260831.chain.006@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #6",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #6",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #6."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-007",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#7)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_007",
+      "thread_id": "mock_thd_chain_007",
+      "message_id_header": "<20260831.chain.007@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #7",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #7",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #7."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-008",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#8)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_008",
+      "thread_id": "mock_thd_chain_008",
+      "message_id_header": "<20260831.chain.008@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #8",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #8",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #8."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-009",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#9)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_009",
+      "thread_id": "mock_thd_chain_009",
+      "message_id_header": "<20260831.chain.009@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #9",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #9",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #9."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-010",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#10)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_010",
+      "thread_id": "mock_thd_chain_010",
+      "message_id_header": "<20260831.chain.010@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #10",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #10",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #10."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-011",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#11)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_011",
+      "thread_id": "mock_thd_chain_011",
+      "message_id_header": "<20260831.chain.011@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #11",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #11",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #11."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-012",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#12)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_012",
+      "thread_id": "mock_thd_chain_012",
+      "message_id_header": "<20260831.chain.012@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #12",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #12",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #12."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-013",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#13)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_013",
+      "thread_id": "mock_thd_chain_013",
+      "message_id_header": "<20260831.chain.013@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #13",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #13",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #13."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-014",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#14)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_014",
+      "thread_id": "mock_thd_chain_014",
+      "message_id_header": "<20260831.chain.014@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #14",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #14",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #14."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-015",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#15)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_015",
+      "thread_id": "mock_thd_chain_015",
+      "message_id_header": "<20260831.chain.015@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #15",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #15",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #15."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-016",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#16)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_016",
+      "thread_id": "mock_thd_chain_016",
+      "message_id_header": "<20260831.chain.016@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #16",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #16",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #16."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-017",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#17)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_017",
+      "thread_id": "mock_thd_chain_017",
+      "message_id_header": "<20260831.chain.017@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #17",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #17",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #17."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-018",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#18)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_018",
+      "thread_id": "mock_thd_chain_018",
+      "message_id_header": "<20260831.chain.018@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #18",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #18",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #18."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-019",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#19)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_019",
+      "thread_id": "mock_thd_chain_019",
+      "message_id_header": "<20260831.chain.019@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #19",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #19",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #19."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-020",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#20)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_020",
+      "thread_id": "mock_thd_chain_020",
+      "message_id_header": "<20260831.chain.020@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #20",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #20",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #20."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-021",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#21)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_021",
+      "thread_id": "mock_thd_chain_021",
+      "message_id_header": "<20260831.chain.021@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #21",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #21",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #21."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-022",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#22)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_022",
+      "thread_id": "mock_thd_chain_022",
+      "message_id_header": "<20260831.chain.022@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #22",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #22",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #22."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-023",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#23)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_023",
+      "thread_id": "mock_thd_chain_023",
+      "message_id_header": "<20260831.chain.023@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #23",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #23",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #23."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-024",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#24)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_024",
+      "thread_id": "mock_thd_chain_024",
+      "message_id_header": "<20260831.chain.024@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #24",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #24",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #24."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-025",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#25)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_025",
+      "thread_id": "mock_thd_chain_025",
+      "message_id_header": "<20260831.chain.025@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #25",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #25",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #25."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-026",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#26)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_026",
+      "thread_id": "mock_thd_chain_026",
+      "message_id_header": "<20260831.chain.026@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #26",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #26",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #26."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-027",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#27)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_027",
+      "thread_id": "mock_thd_chain_027",
+      "message_id_header": "<20260831.chain.027@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #27",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #27",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #27."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-028",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#28)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_028",
+      "thread_id": "mock_thd_chain_028",
+      "message_id_header": "<20260831.chain.028@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #28",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #28",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #28."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-029",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#29)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_029",
+      "thread_id": "mock_thd_chain_029",
+      "message_id_header": "<20260831.chain.029@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #29",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #29",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #29."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-030",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#30)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_030",
+      "thread_id": "mock_thd_chain_030",
+      "message_id_header": "<20260831.chain.030@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #30",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #30",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #30."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-031",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#31)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_031",
+      "thread_id": "mock_thd_chain_031",
+      "message_id_header": "<20260831.chain.031@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #31",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #31",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #31."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-032",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#32)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_032",
+      "thread_id": "mock_thd_chain_032",
+      "message_id_header": "<20260831.chain.032@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #32",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #32",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #32."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-033",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#33)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_033",
+      "thread_id": "mock_thd_chain_033",
+      "message_id_header": "<20260831.chain.033@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #33",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #33",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #33."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-034",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#34)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_034",
+      "thread_id": "mock_thd_chain_034",
+      "message_id_header": "<20260831.chain.034@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #34",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #34",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #34."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-035",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#35)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_035",
+      "thread_id": "mock_thd_chain_035",
+      "message_id_header": "<20260831.chain.035@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #35",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #35",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #35."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-036",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#36)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_036",
+      "thread_id": "mock_thd_chain_036",
+      "message_id_header": "<20260831.chain.036@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #36",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #36",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #36."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-037",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#37)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_037",
+      "thread_id": "mock_thd_chain_037",
+      "message_id_header": "<20260831.chain.037@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #37",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #37",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #37."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-038",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#38)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_038",
+      "thread_id": "mock_thd_chain_038",
+      "message_id_header": "<20260831.chain.038@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #38",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #38",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #38."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-039",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#39)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_039",
+      "thread_id": "mock_thd_chain_039",
+      "message_id_header": "<20260831.chain.039@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #39",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #39",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #39."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-040",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#40)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_040",
+      "thread_id": "mock_thd_chain_040",
+      "message_id_header": "<20260831.chain.040@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #40",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #40",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #40."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-041",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#41)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_041",
+      "thread_id": "mock_thd_chain_041",
+      "message_id_header": "<20260831.chain.041@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #41",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #41",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #41."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-042",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#42)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_042",
+      "thread_id": "mock_thd_chain_042",
+      "message_id_header": "<20260831.chain.042@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #42",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #42",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #42."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-043",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#43)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_043",
+      "thread_id": "mock_thd_chain_043",
+      "message_id_header": "<20260831.chain.043@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #43",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #43",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #43."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-044",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#44)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_044",
+      "thread_id": "mock_thd_chain_044",
+      "message_id_header": "<20260831.chain.044@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #44",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #44",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #44."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-045",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#45)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_045",
+      "thread_id": "mock_thd_chain_045",
+      "message_id_header": "<20260831.chain.045@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #45",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #45",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #45."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-046",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#46)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_046",
+      "thread_id": "mock_thd_chain_046",
+      "message_id_header": "<20260831.chain.046@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #46",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #46",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #46."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-047",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#47)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_047",
+      "thread_id": "mock_thd_chain_047",
+      "message_id_header": "<20260831.chain.047@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #47",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #47",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #47."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-048",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#48)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_048",
+      "thread_id": "mock_thd_chain_048",
+      "message_id_header": "<20260831.chain.048@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #48",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #48",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #48."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-049",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#49)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_049",
+      "thread_id": "mock_thd_chain_049",
+      "message_id_header": "<20260831.chain.049@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #49",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #49",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #49."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  },
+  {
+    "id": "TEST-THD-050",
+    "suite": "chained_thread_history",
+    "domain": "Chained Multi-Turn Customer & Internal Threads",
+    "title": "Project Apollo Multi-Turn Rate Limit Support Thread (#50)",
+    "description": "3-turn ongoing customer conversation with historical turns",
+    "email": {
+      "gmail_id": "mock_thd_msg_050",
+      "thread_id": "mock_thd_chain_050",
+      "message_id_header": "<20260831.chain.050@yourclient.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 09:00:00 -0700",
+        "From": "David Chen <david.chen@yourclient.com>",
+        "To": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+        "Cc": "Marcus Vance <marcus.vance@yourcompany.com>",
+        "Subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #50",
+        "X-Priority": "2",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "David Chen <david.chen@yourclient.com>",
+      "to": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+      "subject": "Re: Project Apollo - Rate Limit Quota Increase for Staging #50",
+      "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST...",
+      "body": "Hi Arjun,\n\nFollowing up on our exchange from Friday regarding the rate limits on Project Apollo.\n\nOur staging pre-flight tests are starting today at 2:00 PM EST. Could you confirm if the cluster quota has been updated to 2,500 req/sec?\n\nBest regards,\nDavid Chen\nVP of Engineering | Apex Global Financial",
+      "thread_history": [
+        {
+          "turn": 1,
+          "timestamp": "2026-08-28T10:15:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Inquiry regarding throughput rate limit increase on Project Apollo instance #50."
+        },
+        {
+          "turn": 2,
+          "timestamp": "2026-08-28T14:30:00Z",
+          "sender": "Arjun Mehta <arjun.mehta@yourcompany.com>",
+          "snippet": "We are reviewing your current load patterns and will prepare a cluster configuration change."
+        },
+        {
+          "turn": 3,
+          "timestamp": "2026-08-31T09:00:00Z",
+          "sender": "David Chen <david.chen@yourclient.com>",
+          "snippet": "Following up \u2014 our staging pre-flight tests are starting today at 2 PM EST for cluster ID apex-prod-us-east-1."
+        }
+      ]
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (Med/Low)"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Follow-up question on active thread with upcoming customer deadline",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        },
+        {
+          "action": "create_draft_reply"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        },
+        {
+          "action": "safe_archive"
+        }
+      ],
+      "expected_tags_contains": [
+        "client",
+        "follow-up",
+        "engineering"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": true
+    }
+  }
+]

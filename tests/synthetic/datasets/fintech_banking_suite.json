@@ -1,0 +1,3052 @@
+[
+  {
+    "id": "TEST-FIN-001",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #1)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_001",
+      "thread_id": "mock_thd_fin_001",
+      "message_id_header": "<20260831.fintech.001@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-1@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #1] Wire Hold & Compliance Verification - Account #88219-01",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-1@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #1] Wire Hold & Compliance Verification - Account #88219-01",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-01\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0001\nAmount: $1,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-002",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #2)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_002",
+      "thread_id": "mock_thd_fin_002",
+      "message_id_header": "<20260831.fintech.002@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-2@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #2] Credit Card Chargeback Dispute Notice - Account #88219-02",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-2@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #2] Credit Card Chargeback Dispute Notice - Account #88219-02",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-02\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0002\nAmount: $2,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-003",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #3)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_003",
+      "thread_id": "mock_thd_fin_003",
+      "message_id_header": "<20260831.fintech.003@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-3@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #3] AML/KYC Identity Re-verification Notice - Account #88219-03",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-3@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #3] AML/KYC Identity Re-verification Notice - Account #88219-03",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-03\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0003\nAmount: $3,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-004",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #4)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_004",
+      "thread_id": "mock_thd_fin_004",
+      "message_id_header": "<20260831.fintech.004@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-4@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #4] Core Banking Reconciliation Mismatch - Account #88219-04",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-4@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #4] Core Banking Reconciliation Mismatch - Account #88219-04",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-04\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0004\nAmount: $4,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-005",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #5)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_005",
+      "thread_id": "mock_thd_fin_005",
+      "message_id_header": "<20260831.fintech.005@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-5@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #5] Credit Card Monthly Statement - Account #88219-05",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-5@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #5] Credit Card Monthly Statement - Account #88219-05",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-05\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0005\nAmount: $5,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-006",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #6)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_006",
+      "thread_id": "mock_thd_fin_006",
+      "message_id_header": "<20260831.fintech.006@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-6@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #6] Wire Hold & Compliance Verification - Account #88219-06",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-6@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #6] Wire Hold & Compliance Verification - Account #88219-06",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-06\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0006\nAmount: $6,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-007",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #7)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_007",
+      "thread_id": "mock_thd_fin_007",
+      "message_id_header": "<20260831.fintech.007@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-7@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #7] Credit Card Chargeback Dispute Notice - Account #88219-07",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-7@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #7] Credit Card Chargeback Dispute Notice - Account #88219-07",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-07\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0007\nAmount: $7,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-008",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #8)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_008",
+      "thread_id": "mock_thd_fin_008",
+      "message_id_header": "<20260831.fintech.008@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-8@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #8] AML/KYC Identity Re-verification Notice - Account #88219-08",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-8@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #8] AML/KYC Identity Re-verification Notice - Account #88219-08",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-08\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0008\nAmount: $8,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-009",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #9)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_009",
+      "thread_id": "mock_thd_fin_009",
+      "message_id_header": "<20260831.fintech.009@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-9@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #9] Core Banking Reconciliation Mismatch - Account #88219-09",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-9@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #9] Core Banking Reconciliation Mismatch - Account #88219-09",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-09\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0009\nAmount: $9,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-010",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #10)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_010",
+      "thread_id": "mock_thd_fin_010",
+      "message_id_header": "<20260831.fintech.010@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-10@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #10] Credit Card Monthly Statement - Account #88219-10",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-10@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #10] Credit Card Monthly Statement - Account #88219-10",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-10\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0010\nAmount: $10,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-011",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #11)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_011",
+      "thread_id": "mock_thd_fin_011",
+      "message_id_header": "<20260831.fintech.011@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-11@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #11] Wire Hold & Compliance Verification - Account #88219-11",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-11@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #11] Wire Hold & Compliance Verification - Account #88219-11",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-11\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0011\nAmount: $11,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-012",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #12)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_012",
+      "thread_id": "mock_thd_fin_012",
+      "message_id_header": "<20260831.fintech.012@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-12@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #12] Credit Card Chargeback Dispute Notice - Account #88219-12",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-12@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #12] Credit Card Chargeback Dispute Notice - Account #88219-12",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-12\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0012\nAmount: $12,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-013",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #13)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_013",
+      "thread_id": "mock_thd_fin_013",
+      "message_id_header": "<20260831.fintech.013@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-13@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #13] AML/KYC Identity Re-verification Notice - Account #88219-13",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-13@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #13] AML/KYC Identity Re-verification Notice - Account #88219-13",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-13\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0013\nAmount: $13,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-014",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #14)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_014",
+      "thread_id": "mock_thd_fin_014",
+      "message_id_header": "<20260831.fintech.014@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-14@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #14] Core Banking Reconciliation Mismatch - Account #88219-14",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-14@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #14] Core Banking Reconciliation Mismatch - Account #88219-14",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-14\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0014\nAmount: $14,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-015",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #15)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_015",
+      "thread_id": "mock_thd_fin_015",
+      "message_id_header": "<20260831.fintech.015@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-15@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #15] Credit Card Monthly Statement - Account #88219-15",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-15@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #15] Credit Card Monthly Statement - Account #88219-15",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-15\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0015\nAmount: $15,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-016",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #16)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_016",
+      "thread_id": "mock_thd_fin_016",
+      "message_id_header": "<20260831.fintech.016@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-16@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #16] Wire Hold & Compliance Verification - Account #88219-16",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-16@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #16] Wire Hold & Compliance Verification - Account #88219-16",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-16\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0016\nAmount: $16,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-017",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #17)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_017",
+      "thread_id": "mock_thd_fin_017",
+      "message_id_header": "<20260831.fintech.017@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-17@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #17] Credit Card Chargeback Dispute Notice - Account #88219-17",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-17@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #17] Credit Card Chargeback Dispute Notice - Account #88219-17",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-17\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0017\nAmount: $17,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-018",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #18)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_018",
+      "thread_id": "mock_thd_fin_018",
+      "message_id_header": "<20260831.fintech.018@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-18@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #18] AML/KYC Identity Re-verification Notice - Account #88219-18",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-18@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #18] AML/KYC Identity Re-verification Notice - Account #88219-18",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-18\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0018\nAmount: $18,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-019",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #19)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_019",
+      "thread_id": "mock_thd_fin_019",
+      "message_id_header": "<20260831.fintech.019@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-19@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #19] Core Banking Reconciliation Mismatch - Account #88219-19",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-19@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #19] Core Banking Reconciliation Mismatch - Account #88219-19",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-19\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0019\nAmount: $19,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-020",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #20)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_020",
+      "thread_id": "mock_thd_fin_020",
+      "message_id_header": "<20260831.fintech.020@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-20@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #20] Credit Card Monthly Statement - Account #88219-20",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-20@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #20] Credit Card Monthly Statement - Account #88219-20",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-20\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0020\nAmount: $20,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-021",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #21)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_021",
+      "thread_id": "mock_thd_fin_021",
+      "message_id_header": "<20260831.fintech.021@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-21@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #21] Wire Hold & Compliance Verification - Account #88219-21",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-21@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #21] Wire Hold & Compliance Verification - Account #88219-21",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-21\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0021\nAmount: $21,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-022",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #22)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_022",
+      "thread_id": "mock_thd_fin_022",
+      "message_id_header": "<20260831.fintech.022@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-22@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #22] Credit Card Chargeback Dispute Notice - Account #88219-22",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-22@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #22] Credit Card Chargeback Dispute Notice - Account #88219-22",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-22\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0022\nAmount: $22,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-023",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #23)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_023",
+      "thread_id": "mock_thd_fin_023",
+      "message_id_header": "<20260831.fintech.023@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-23@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #23] AML/KYC Identity Re-verification Notice - Account #88219-23",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-23@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #23] AML/KYC Identity Re-verification Notice - Account #88219-23",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-23\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0023\nAmount: $23,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-024",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #24)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_024",
+      "thread_id": "mock_thd_fin_024",
+      "message_id_header": "<20260831.fintech.024@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-24@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #24] Core Banking Reconciliation Mismatch - Account #88219-24",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-24@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #24] Core Banking Reconciliation Mismatch - Account #88219-24",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-24\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0024\nAmount: $24,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-025",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #25)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_025",
+      "thread_id": "mock_thd_fin_025",
+      "message_id_header": "<20260831.fintech.025@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-25@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #25] Credit Card Monthly Statement - Account #88219-25",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-25@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #25] Credit Card Monthly Statement - Account #88219-25",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-25\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0025\nAmount: $25,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-026",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #26)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_026",
+      "thread_id": "mock_thd_fin_026",
+      "message_id_header": "<20260831.fintech.026@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-26@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #26] Wire Hold & Compliance Verification - Account #88219-26",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-26@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #26] Wire Hold & Compliance Verification - Account #88219-26",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-26\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0026\nAmount: $26,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-027",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #27)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_027",
+      "thread_id": "mock_thd_fin_027",
+      "message_id_header": "<20260831.fintech.027@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-27@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #27] Credit Card Chargeback Dispute Notice - Account #88219-27",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-27@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #27] Credit Card Chargeback Dispute Notice - Account #88219-27",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-27\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0027\nAmount: $27,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-028",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #28)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_028",
+      "thread_id": "mock_thd_fin_028",
+      "message_id_header": "<20260831.fintech.028@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-28@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #28] AML/KYC Identity Re-verification Notice - Account #88219-28",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-28@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #28] AML/KYC Identity Re-verification Notice - Account #88219-28",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-28\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0028\nAmount: $28,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-029",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #29)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_029",
+      "thread_id": "mock_thd_fin_029",
+      "message_id_header": "<20260831.fintech.029@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-29@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #29] Core Banking Reconciliation Mismatch - Account #88219-29",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-29@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #29] Core Banking Reconciliation Mismatch - Account #88219-29",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-29\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0029\nAmount: $29,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-030",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #30)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_030",
+      "thread_id": "mock_thd_fin_030",
+      "message_id_header": "<20260831.fintech.030@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-30@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #30] Credit Card Monthly Statement - Account #88219-30",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-30@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #30] Credit Card Monthly Statement - Account #88219-30",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-30\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0030\nAmount: $30,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-031",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #31)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_031",
+      "thread_id": "mock_thd_fin_031",
+      "message_id_header": "<20260831.fintech.031@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-31@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #31] Wire Hold & Compliance Verification - Account #88219-31",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-31@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #31] Wire Hold & Compliance Verification - Account #88219-31",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-31\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0031\nAmount: $31,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-032",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #32)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_032",
+      "thread_id": "mock_thd_fin_032",
+      "message_id_header": "<20260831.fintech.032@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-32@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #32] Credit Card Chargeback Dispute Notice - Account #88219-32",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-32@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #32] Credit Card Chargeback Dispute Notice - Account #88219-32",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-32\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0032\nAmount: $32,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-033",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #33)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_033",
+      "thread_id": "mock_thd_fin_033",
+      "message_id_header": "<20260831.fintech.033@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-33@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #33] AML/KYC Identity Re-verification Notice - Account #88219-33",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-33@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #33] AML/KYC Identity Re-verification Notice - Account #88219-33",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-33\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0033\nAmount: $33,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-034",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #34)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_034",
+      "thread_id": "mock_thd_fin_034",
+      "message_id_header": "<20260831.fintech.034@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-34@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #34] Core Banking Reconciliation Mismatch - Account #88219-34",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-34@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #34] Core Banking Reconciliation Mismatch - Account #88219-34",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-34\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0034\nAmount: $34,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-035",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #35)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_035",
+      "thread_id": "mock_thd_fin_035",
+      "message_id_header": "<20260831.fintech.035@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-35@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #35] Credit Card Monthly Statement - Account #88219-35",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-35@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #35] Credit Card Monthly Statement - Account #88219-35",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-35\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0035\nAmount: $35,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-036",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #36)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_036",
+      "thread_id": "mock_thd_fin_036",
+      "message_id_header": "<20260831.fintech.036@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-36@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #36] Wire Hold & Compliance Verification - Account #88219-36",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-36@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #36] Wire Hold & Compliance Verification - Account #88219-36",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-36\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0036\nAmount: $36,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-037",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #37)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_037",
+      "thread_id": "mock_thd_fin_037",
+      "message_id_header": "<20260831.fintech.037@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-37@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #37] Credit Card Chargeback Dispute Notice - Account #88219-37",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-37@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #37] Credit Card Chargeback Dispute Notice - Account #88219-37",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-37\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0037\nAmount: $37,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-038",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #38)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_038",
+      "thread_id": "mock_thd_fin_038",
+      "message_id_header": "<20260831.fintech.038@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-38@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #38] AML/KYC Identity Re-verification Notice - Account #88219-38",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-38@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #38] AML/KYC Identity Re-verification Notice - Account #88219-38",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-38\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0038\nAmount: $38,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-039",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #39)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_039",
+      "thread_id": "mock_thd_fin_039",
+      "message_id_header": "<20260831.fintech.039@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-39@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #39] Core Banking Reconciliation Mismatch - Account #88219-39",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-39@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #39] Core Banking Reconciliation Mismatch - Account #88219-39",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-39\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0039\nAmount: $39,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-040",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #40)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_040",
+      "thread_id": "mock_thd_fin_040",
+      "message_id_header": "<20260831.fintech.040@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-40@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #40] Credit Card Monthly Statement - Account #88219-40",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-40@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #40] Credit Card Monthly Statement - Account #88219-40",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-40\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0040\nAmount: $40,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-041",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #41)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_041",
+      "thread_id": "mock_thd_fin_041",
+      "message_id_header": "<20260831.fintech.041@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-41@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #41] Wire Hold & Compliance Verification - Account #88219-41",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-41@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #41] Wire Hold & Compliance Verification - Account #88219-41",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-41\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0041\nAmount: $41,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-042",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #42)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_042",
+      "thread_id": "mock_thd_fin_042",
+      "message_id_header": "<20260831.fintech.042@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-42@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #42] Credit Card Chargeback Dispute Notice - Account #88219-42",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-42@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #42] Credit Card Chargeback Dispute Notice - Account #88219-42",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-42\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0042\nAmount: $42,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-043",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #43)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_043",
+      "thread_id": "mock_thd_fin_043",
+      "message_id_header": "<20260831.fintech.043@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-43@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #43] AML/KYC Identity Re-verification Notice - Account #88219-43",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-43@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #43] AML/KYC Identity Re-verification Notice - Account #88219-43",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-43\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0043\nAmount: $43,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-044",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #44)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_044",
+      "thread_id": "mock_thd_fin_044",
+      "message_id_header": "<20260831.fintech.044@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-44@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #44] Core Banking Reconciliation Mismatch - Account #88219-44",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-44@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #44] Core Banking Reconciliation Mismatch - Account #88219-44",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-44\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0044\nAmount: $44,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-045",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #45)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_045",
+      "thread_id": "mock_thd_fin_045",
+      "message_id_header": "<20260831.fintech.045@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-45@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #45] Credit Card Monthly Statement - Account #88219-45",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-45@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #45] Credit Card Monthly Statement - Account #88219-45",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-45\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0045\nAmount: $45,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-046",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Wire Hold & Compliance Verification (Scenario #46)",
+    "description": "Detailed financial scenario covering SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+    "email": {
+      "gmail_id": "mock_fin_046",
+      "thread_id": "mock_thd_fin_046",
+      "message_id_header": "<20260831.fintech.046@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-46@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #46] Wire Hold & Compliance Verification - Account #88219-46",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-46@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #46] Wire Hold & Compliance Verification - Account #88219-46",
+      "snippet": "SWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-46\n\nSWIFT wire of $450,000 to beneficiary is held pending OFAC/Sanctions documentation.\n\nReference Code: SVB-TXN-2026-0046\nAmount: $46,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        7,
+        9
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "wire-transfer"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-047",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Chargeback Dispute Notice (Scenario #47)",
+    "description": "Detailed financial scenario covering Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+    "email": {
+      "gmail_id": "mock_fin_047",
+      "thread_id": "mock_thd_fin_047",
+      "message_id_header": "<20260831.fintech.047@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-47@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #47] Credit Card Chargeback Dispute Notice - Account #88219-47",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-47@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #47] Credit Card Chargeback Dispute Notice - Account #88219-47",
+      "snippet": "Dispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-47\n\nDispute Case #CB-88219: Merchant dispute for $1,250.00 filed by cardholder. Evidence due in 5 days.\n\nReference Code: SVB-TXN-2026-0047\nAmount: $47,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        6,
+        8
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "chargeback"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-048",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "AML/KYC Identity Re-verification Notice (Scenario #48)",
+    "description": "Detailed financial scenario covering Periodic regulatory KYC refresh required for corporate account 8829-019.",
+    "email": {
+      "gmail_id": "mock_fin_048",
+      "thread_id": "mock_thd_fin_048",
+      "message_id_header": "<20260831.fintech.048@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-48@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #48] AML/KYC Identity Re-verification Notice - Account #88219-48",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-48@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #48] AML/KYC Identity Re-verification Notice - Account #88219-48",
+      "snippet": "Periodic regulatory KYC refresh required for corporate account 8829-019.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-48\n\nPeriodic regulatory KYC refresh required for corporate account 8829-019.\n\nReference Code: SVB-TXN-2026-0048\nAmount: $48,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (Med/Low)",
+      "acceptable_categories": [
+        "Action Required (Med/Low)",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        5,
+        7
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "compliance"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-049",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Core Banking Reconciliation Mismatch (Scenario #49)",
+    "description": "Detailed financial scenario covering Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+    "email": {
+      "gmail_id": "mock_fin_049",
+      "thread_id": "mock_thd_fin_049",
+      "message_id_header": "<20260831.fintech.049@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-49@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #49] Core Banking Reconciliation Mismatch - Account #88219-49",
+        "X-Priority": "1",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-49@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #49] Core Banking Reconciliation Mismatch - Account #88219-49",
+      "snippet": "Settlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-49\n\nSettlement engine reconciliation discrepancy of $12,450.20 on Batch #9921.\n\nReference Code: SVB-TXN-2026-0049\nAmount: $49,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Action Required (High)",
+      "acceptable_categories": [
+        "Action Required (High)",
+        "Action Required (High)"
+      ],
+      "urgency_score_range": [
+        8,
+        10
+      ],
+      "is_reply_necessary": true,
+      "reply_necessity_reason": "Direct action/reply required for banking transaction compliance",
+      "is_no_reply": false,
+      "is_vip": true,
+      "has_critical_subject": true,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "transaction"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  },
+  {
+    "id": "TEST-FIN-050",
+    "suite": "fintech_banking",
+    "domain": "FinTech & Digital Banking",
+    "title": "Credit Card Monthly Statement (Scenario #50)",
+    "description": "Detailed financial scenario covering Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+    "email": {
+      "gmail_id": "mock_fin_050",
+      "thread_id": "mock_thd_fin_050",
+      "message_id_header": "<20260831.fintech.050@bank.com>",
+      "headers": {
+        "Date": "Mon, 31 Aug 2026 10:15:00 -0400",
+        "From": "Silicon Valley Bank Operations <operations-50@svb.com>",
+        "To": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+        "Subject": "[BANK NOTICE #50] Credit Card Monthly Statement - Account #88219-50",
+        "X-Priority": "3",
+        "Authentication-Results": "spf=pass; dkim=pass"
+      },
+      "sender": "Silicon Valley Bank Operations <operations-50@svb.com>",
+      "to": "Eleanor Bennett <eleanor.bennett@yourcompany.com>",
+      "subject": "[BANK NOTICE #50] Credit Card Monthly Statement - Account #88219-50",
+      "snippet": "Your ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.",
+      "body": "Dear Eleanor,\n\nRe: Account #88219-50\n\nYour ICICI Bank Corporate Platinum statement for Aug 2026 is ready. Total Due: INR 1,42,850.\n\nReference Code: SVB-TXN-2026-0050\nAmount: $50,000.00 USD\nTimestamp: 2026-08-31T14:15:00Z\n\nPlease submit the required authorization forms via secure portal or reply directly.\n\nBest regards,\nSVB Commercial Banking Operations",
+      "thread_history": []
+    },
+    "expected": {
+      "category": "Receipts/Financial",
+      "acceptable_categories": [
+        "Receipts/Financial",
+        "Receipts/Financial"
+      ],
+      "urgency_score_range": [
+        2,
+        4
+      ],
+      "is_reply_necessary": false,
+      "reply_necessity_reason": "Automated financial statement/notification",
+      "is_no_reply": true,
+      "is_vip": true,
+      "has_critical_subject": false,
+      "required_actions": [
+        {
+          "action": "apply_label",
+          "label": "@VIP"
+        }
+      ],
+      "forbidden_actions": [
+        {
+          "action": "remove_inbox"
+        }
+      ],
+      "expected_tags_contains": [
+        "bank",
+        "finance",
+        "transaction",
+        "credit-card"
+      ],
+      "should_trigger_calendar": false,
+      "should_queue_pm": false
+    }
+  }
+]
